@@ -14,7 +14,7 @@ These workshops are organized onsite in a Google office.
 3 hours.
 
 ## Prerequisites
-You'll need a laptop with a web browser.  Your browser will need to be able to access the Google Cloud Console and port 7474 on a Neo4j deployment running on Google Cloud.  If your laptop has a firewall you can't control on it, you may want to bring your personal laptop.
+You'll need a laptop with a web browser.  Your browser will need to be able to access the Google Cloud Console and port 7474 on a Neo4j deployment running on Google Cloud.  If your laptop has a firewall you can't control, you may want to bring your personal laptop.
 
 ## Agenda
 ### Part 1
