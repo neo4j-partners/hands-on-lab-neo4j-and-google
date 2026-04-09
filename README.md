@@ -50,7 +50,6 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 * Lecture - [Neo4j and AI](https://docs.google.com/presentation/d/1vVII1F9RgcFiQ8Pxd2RQUursZiqqbkpIG798sn-HWgU/edit?usp=sharing) (15 min)
     * Generating Knowledge Graphs
     * Retrieval Augmented Generation
-    * Semantic Search
     * Using Gemini Enterprise with Neo4j
 * Lab 5 - Knowledge Graph Builder (20 min)
 * Lab 6 - Neo4j Agent and Gemini Enterprise (20 min)
