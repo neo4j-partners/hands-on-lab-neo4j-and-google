@@ -52,7 +52,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
     * Retrieval Augmented Generation
     * Semantic Search
     * Using Gemini Enterprise with Neo4j
-* Lab 5 - Knowledge Graph Builder
+* Lab 5 - Knowledge Graph Builder (20 min)
 * Lab 6 - Neo4j Agent and Gemini Enterprise (20 min)
 * Lab 7 - Custom Agents with Langchain (20 min)
 * [Questions and Next Steps](Questions%20and%20Next%20Steps.md) (5 min)
