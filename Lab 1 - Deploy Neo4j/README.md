@@ -44,7 +44,7 @@ Click "Continue."
 
 ![](images/08.png)
 
-Now we are in the Aura Console.  We're ready to create our first database!  Click on "GCP marketplace project."
+Now we are in the Aura Console.  Click on "GCP marketplace project."
 
 ![](images/09.png)
 
@@ -72,7 +72,7 @@ We're now presented with a choice of product tiers within Neo4j:
 * Business Critical
 * Professional
 
-The Free tier is a great way to get started experimenting.  Business Critical offers a 3 node fault tolerant and highly available cluster.  We don't really need that for this lab.  The Professional tier has similar functionality with a single node.  Select Professional.
+The Free tier is a great way to get started experimenting.  Business Critical offers a 3 node fault tolerant and highly available cluster.  We don't really need that for this lab.  The Professional tier has similar functionality with a single node.  Select "Professional."
 
 ![](images/14.png)
 
