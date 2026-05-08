@@ -1,6 +1,6 @@
 # Lab 1 - Deploy Neo4j
 
-There are a number of options for deploying [Neo4j on Google Cloud Marketplace (GCMP)](https://console.cloud.google.com/marketplace/browse?filter=partner:Neo4j):
+There are a number of options for deploying Neo4j on Google Cloud Marketplace (GCMP):
 
 * [Neo4j Community Edition](https://console.cloud.google.com/marketplace/product/neo4j-mp-public/neo4j-community-edition)
 * [Neo4j Enterprise Edition](https://console.cloud.google.com/marketplace/product/neo4j-mp-public/neo4j-enterprise-edition)
@@ -10,9 +10,7 @@ CE and EE are self managed versions of the product.  The marketplace listing dep
 
 Aura is a SaaS version of Neo4j.  That is managed entirely by Neo4j so no infrastructure administration is required.  We're going to use that version.
 
-So, let's get started deploying...  Be sure your [Google Cloud Console](https://console.cloud.google.com/) is open from the last lab.
-
-In the search bar, type "Neo4j Aura."
+So, let's get started deploying...  Be sure your [Google Cloud Console](https://console.cloud.google.com/) is open from the last lab.  In the search bar, type "Neo4j Aura."
 
 ![](images/01.png)
 
@@ -46,31 +44,27 @@ Click "Continue."
 
 ![](images/08.png)
 
-Now we are in the Aura Console.  We're ready to create our first database!
+Now we are in the Aura Console.  We're ready to create our first database!  Click on "GCP marketplace project."
 
 ![](images/09.png)
-
-Click on "GCP marketplace project."
-
-![](images/10.png)
 
 You'll then be presented with a dialog to gather information about your use case.  For "Company / Institution" you can enter "Vocareum" and click "Next."
 
 Note that we're starting to build a labeled property graph describing our use case.
 
-![](images/11.png)
+![](images/10.png)
 
 Click "Build a graph-powered application."  After all, we're going to be building some agent powered applications on top of Neo4j!
 
-![](images/12.png)
+![](images/11.png)
 
 Click "Data Scientist."  Even if that's not your job title, you are today.  We'll be using Graph Analytics!
 
-![](images/13.png)
+![](images/12.png)
 
 Now click "Generative AI."  We're going to be using Google Gemini Enterprise to build agents.
 
-![](images/14.png)
+![](images/13.png)
 
 We're now presented with a choice of product tiers within Neo4j:
 
@@ -80,7 +74,7 @@ We're now presented with a choice of product tiers within Neo4j:
 
 The Free tier is a great way to get started experimenting.  Business Critical offers a 3 node fault tolerant and highly available cluster.  We don't really need that for this lab.  The Professional tier has similar functionality with a single node.  Select Professional.
 
-![](images/15.png)
+![](images/14.png)
 
 Scroll down and inspect the defaults.
 
@@ -90,27 +84,27 @@ There are two options for Graph Analytics.  This feature provides access to 60+ 
 
 Finally, there's an option to optimize the database for vector search.  We'll be using vector functionality but our workloads will be comparatively light so we don't need this optimization.
 
-![](images/16.png)
+![](images/15.png)
 
 We've reached the bottom!  Click "Create Instance."
 
-![](images/17.png)
+![](images/16.png)
 
 You'll be presented with the credentials for your database.  Click "Download and continue."  That will download the credentials to a text file on your local machine.  
 
-![](images/18.png)
+![](images/17.png)
 
 A save dialog should pop up.  Be sure to save that file as you won't be able to get those credentials later.
 
-![](images/19.png)
+![](images/18.png)
 
 You'll see a dialog that your database is being created. This should only take a few minutes.
 
-![](images/20.png)
+![](images/19.png)
 
 When deployment is complete you'll see the instance details in the management console.  
 
-![](images/21.png)
+![](images/20.png)
 
 You can poke around the menus here a bit and see more on database status and connection information.
 
