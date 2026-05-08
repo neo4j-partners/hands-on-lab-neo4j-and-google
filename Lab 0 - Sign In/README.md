@@ -1,7 +1,5 @@
 # Lab 0 - Sign In
-All the lab content is located on [GitHub](https://github.com/neo4j-partners/hands-on-lab-neo4j-and-google).  We're using a learning platform called Vocareum to present the lab content.  You should have received an email from them.
-
-Open the email and follow the link.
+We're using a learning platform called Vocareum to present the lab content.  You should have received an email from them.  Open the email and follow the link.
 
 ![](images/01.png)
 
@@ -21,14 +19,30 @@ Select the "Neo4j and Google Gemini Enterprise" course.
 
 ![](images/05.png)
 
-You can now select assignments and work through the course.
+You should see a screen with some Google credentials along the side.  That is an ephemeral Google Cloud account.  You can use this to complete the lab.
+
+Copy the link for the "Console."  You probably want to open it in an incognito window.  Alternatively you can log out of any Google account you're in and login with those credentials.
 
 ![](images/06.png)
 
-This is the Google Cloud account.
+Enter your Vocareum credentials from the last step.  The email address will be something like user1684365330797fed@vocareumlabs.com.  Click next.
 
 ![](images/07.png)
 
+Enter the password.  Click "Next."
+
+![](images/08.png)
+
+Review the terms.  Click "I understand" if they are acceptable.
+
+![](images/09.png)
+
+We're now in the Google Cloud Console.  Click the check box if you agree to the terms.  Then click "Agree and continue."
+
+![](images/10.png)
+
 Now you're all set, logged into a Google Cloud account.
+
+![](images/11.png)
 
 In the next lab we'll deploy Neo4j.
