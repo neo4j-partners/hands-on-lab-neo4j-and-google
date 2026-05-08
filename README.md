@@ -28,12 +28,12 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 * Lecture - [Introduction to Neo4j](https://docs.google.com/presentation/d/1WvPzs_JEh8uuKEAQGecH1rUd1NoRzqZIKc-hQkuBdXQ/edit?usp=sharing) (10 min)
   * What is Neo4j?
   * How is it deployed and managed on Google Cloud?
-* [Lab 0 - Sign In](Lab%200%20-%20Sign%20In) (5 min)
+* [Lab 1 - Sign In](Lab%201%20-%20Sign%20In) (5 min)
   * Improving the Labs
   * Sign into Google Cloud
-* [Lab 1 - Deploy Neo4j](Lab%201%20-%20Deploy%20Neo4j) (15 min)
+* [Lab 2 - Deploy Neo4j](Lab%202%20-%20Deploy%20Neo4j) (15 min)
   * Deploying Neo4j Aura Professional
-* [Lab 2 - Connect to Neo4j](Lab%202%20-%20Connect%20to%20Neo4j/README.md) (10 min)
+* [Lab 3 - Connect to Neo4j](Lab%203%20-%20Connect%20to%20Neo4j/README.md) (10 min)
 * Break (5 min)
 
 ### Part 2
@@ -44,10 +44,10 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
   * Apache Beam and Google Dataflow
   * Apache Spark and Google Dataproc
   * Apache Kafka and Cloud Cloud
-* [Lab 3 - Moving Data](Lab%203%20-%20Moving%20Data/README.md) (15 min)
+* [Lab 4 - Moving Data](Lab%204%20-%20Moving%20Data/README.md) (15 min)
   * Simple Load Statement
   * More Performant Load
-* [Lab 4 - Exploration](Lab%204%20-%20Exploration/README.md) 10 min)
+* [Lab 5 - Exploration](Lab%205%20-%20Exploration/README.md) 10 min)
   * Exploration with Neo4j Explore
 * Break (5 min)
 
@@ -59,7 +59,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
   * Generating Knowledge Graphs
   * Retrieval Augmented Generation
   * Using Gemini Enterprise with Neo4j
-* [Lab 5 - Document Intelligence](Lab%205%20-%20Document%20Intelligence/README.md) (20 min)
-* [Lab 6 - Deploy Neo4j Agent](Lab%206%20-%20Deploy%20Neo4j%20Agent/README.md) (20 min)
-* [Lab 7 - Use Neo4j Agent](Lab%207%20-%20Use%20Neo4j%20Agent/README.md) (20 min)
+* [Lab 6 - Document Intelligence](Lab%206%20-%20Document%20Intelligence/README.md) (20 min)
+* [Lab 7 - Deploy Neo4j Agent](Lab%207%20-%20Deploy%20Neo4j%20Agent/README.md) (20 min)
+* [Lab 8 - Use Neo4j Agent](Lab%208%20-%20Use%20Neo4j%20Agent/README.md) (20 min)
 * [Questions and Next Steps](Questions%20and%20Next%20Steps.md) (5 min)
