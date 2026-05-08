@@ -6,6 +6,4 @@ The agent is an MCP server that can interact with a Neo4j Aura instance.  It can
 
 The Agent is available in the Google Cloud Marketplace.  It's wrapped in the Agent to Agent (A2A) protocol.  This means we can deploy it within a Gemini Enterprise environment.
 
-So, let's get started.  We're going to start at the [Google Cloud Console](https://console.cloud.google.com/).  In the search bar at the top, type "Neo4j Agent."
-
-![](images/01.png)
+So, let's get started.  You can open the Neo4j Agent listing [here](https://console.cloud.google.com/marketplace/product/neo4j-mp-public/neo4j-agent).
