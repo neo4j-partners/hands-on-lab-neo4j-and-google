@@ -1,7 +1,7 @@
-# Lab 4 - Exploration
+# Lab 5 - Exploration
+
 In this lab, we'll use Explore, Neo4j's business intelligence (BI) tool, to explore our data.
 
-## Exploration with Neo4j Bloom
 The Explore tool, powered by Neo4j Bloom, is a graph exploration tool for visually interacting with graph data.
 
 A graph puts information into context. People, places, and things. Products, services, and accounts. Transactions, identities, and events. Explore shows the patterns you intuitively know are there in your data, and reveals new patterns you may not have expected.
@@ -79,5 +79,3 @@ The more central nodes in our graph are now shown as larger.
 ![](images/25.png)
 
 These are just a few examples of what you can do with Bloom.  Feel free to explore!
-
-#### Progress:  ████░░░ 4/7 Labs Completed!

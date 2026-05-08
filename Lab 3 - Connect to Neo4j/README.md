@@ -1,4 +1,5 @@
-# Lab 2 - Connect to Neo4j
+# Lab 3 - Connect to Neo4j
+
 In this lab, we're going to connect to the Neo4j deployment we created in the previous step.  To get started, open the Neo4j endpoint in the Google Cloud console by navigating [here](https://console.cloud.google.com/marketplace/product/endpoints/prod.n4gcp.neo4j.io).
 
 Click "MANAGE ON PROVIDER" to get to the Neo4j console.

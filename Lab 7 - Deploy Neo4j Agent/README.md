@@ -1,4 +1,4 @@
-# Lab 6 - Deploy Neo4j Agent
+# Lab 7 - Deploy Neo4j Agent
 
 In this lab we're going to use the Neo4j Agent in Google Cloud Marketplace with Gemini Enterprise.
 

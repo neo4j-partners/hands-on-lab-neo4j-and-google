@@ -1,4 +1,4 @@
-# Lab 0 - Sign In
+# Lab 1 - Sign In
 We're using a learning platform called Vocareum to present the lab content.  You should have received an email from them.  Open the email and follow the link.
 
 ![](images/01.png)

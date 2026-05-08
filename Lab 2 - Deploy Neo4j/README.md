@@ -1,4 +1,4 @@
-# Lab 1 - Deploy Neo4j
+# Lab 2 - Deploy Neo4j
 
 There are a number of options for deploying Neo4j on Google Cloud Marketplace (GCMP):
 
