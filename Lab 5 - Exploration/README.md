@@ -74,7 +74,7 @@ Choose "Size scaling."
 
 ![](images/24.png)
 
-The more central nodes in our graph are now shown as larger. 
+The more central nodes in our graph are now shown as larger.
 
 ![](images/25.png)
 
