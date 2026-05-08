@@ -22,7 +22,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 
 ## Agenda
 
-### 1 - Getting Started
+### Assignment 1 - Getting Started
 
 * Introductions
 * Lecture - [Introduction to Neo4j](https://docs.google.com/presentation/d/1WvPzs_JEh8uuKEAQGecH1rUd1NoRzqZIKc-hQkuBdXQ/edit?usp=sharing) (10 min)
@@ -36,7 +36,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 * [Lab 3 - Connect to Neo4j](Lab%203%20-%20Connect%20to%20Neo4j/README.md) (10 min)
 * Break (5 min)
 
-### 2 - Query and Explore
+### Assignment 2 - Query and Explore
 
 * Lecture - [Moving Data](https://docs.google.com/presentation/d/1O6Oy_GbDYYCvQanUyUCl30hQdSsy9kKL53Jgl23Nnsk/edit?usp=sharing) (10 min)
   * LOAD CSV
@@ -51,7 +51,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
   * Exploration with Neo4j Explore
 * Break (5 min)
 
-### 3 - AI and Agents
+### Assignment 3 - AI and Agents
 
 * Lecture - [Gemini Enterprise](https://docs.google.com/presentation/d/1BowFoowrk0pTVqdScC4weBFZJ-xMTdHbvMUCW4ZyP68/edit?usp=sharing) (15 min)
   * What is Gemini Enterprise?
