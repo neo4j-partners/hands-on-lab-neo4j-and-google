@@ -32,7 +32,7 @@ We're now on the auth page for Neo4j Aura.  Click "Accept Cookies" to dismiss th
 
 ![](images/05.png)
 
-Neo4j supports a number of different auth providers, including Google, GitHub and Microsoft.  We've already authenicated with Google for the console.  So, click on the "Continue with Google" button to carry those credentials through to Neo4j Aura.
+Neo4j supports a number of different auth providers, including Google, GitHub and Microsoft.  We've already authenticated with Google for the console.  So, click on the "Continue with Google" button to carry those credentials through to Neo4j Aura.
 
 ![](images/06.png)
 
@@ -76,7 +76,13 @@ The Free tier is a great way to get started experimenting.  Business Critical of
 
 ![](images/14.png)
 
-Scroll down and inspect the defaults.
+Vocareum and Neo4j Aura are currently interacting in a somewhat undesirable manner.  The Neo4j Aura Organizations and Projects are viewable to everyone within this Vocareum course.  While each user has their own username and project, they all share a single billing account.  We're working on improving this.
+
+In the meantime, please name you instance using your Vocareum username.  That will allow you to distinguish your Neo4j Aura instances from those belonging to your classmates.
+
+![](images/15.png)
+
+Now, let's inspect the other options.
 
 We can deploy in different regions.  It's possible to configure the amount of RAM and disk available.
 
@@ -84,7 +90,7 @@ There are two options for Graph Analytics.  This feature provides access to 60+ 
 
 Finally, there's an option to optimize the database for vector search.  We'll be using vector functionality but our workloads will be comparatively light so we don't need this optimization.
 
-![](images/15.png)
+![](images/16.png)
 
 We've reached the bottom!  Click "Create Instance."
 
