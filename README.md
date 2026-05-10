@@ -25,7 +25,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 ### Assignment 1 - Getting Started
 
 * Introductions
-* Lecture - [Introduction to Neo4j](https://docs.google.com/presentation/d/1WvPzs_JEh8uuKEAQGecH1rUd1NoRzqZIKc-hQkuBdXQ/edit?usp=sharing) (10 min)
+* Lecture - [Introduction to Neo4j](https://docs.google.com/presentation/d/1J2pU4WNBmsnnIc8luJ2iISY5nSZPR5p9-bCTdLjtCS4/edit?usp=sharing) (10 min)
   * What is Neo4j?
   * How is it deployed and managed on Google Cloud?
 * [Lab 1 - Sign In](Lab%201%20-%20Sign%20In) (5 min)
@@ -38,7 +38,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 
 ### Assignment 2 - Query and Explore
 
-* Lecture - [Moving Data](https://docs.google.com/presentation/d/1O6Oy_GbDYYCvQanUyUCl30hQdSsy9kKL53Jgl23Nnsk/edit?usp=sharing) (10 min)
+* Lecture - [Moving Data](https://docs.google.com/presentation/d/1qqk37UVx3_vedC0WIU6j_kEG2MhhtqGzpbPXt8n_Z8Q/edit?usp=sharing) (10 min)
   * LOAD CSV
   * Neo4j Aura Importer
   * Apache Beam and Google Dataflow
@@ -55,7 +55,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 
 * Lecture - [Gemini Enterprise](https://docs.google.com/presentation/d/1BowFoowrk0pTVqdScC4weBFZJ-xMTdHbvMUCW4ZyP68/edit?usp=sharing) (15 min)
   * What is Gemini Enterprise?
-* Lecture - [Neo4j and AI](https://docs.google.com/presentation/d/1vVII1F9RgcFiQ8Pxd2RQUursZiqqbkpIG798sn-HWgU/edit?usp=sharing) (15 min)
+* Lecture - [Neo4j and AI](https://docs.google.com/presentation/d/1q4Kc9EcbSCNDraB1ROMBVnDy8pJV6QMWz1E7Oo-6vNw/edit?usp=sharing) (15 min)
   * Generating Knowledge Graphs
   * Retrieval Augmented Generation
   * Using Gemini Enterprise with Neo4j
