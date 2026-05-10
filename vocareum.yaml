@@ -1,0 +1,13 @@
+version: '1.0'
+vocareum:
+  org_id: '613'
+  course_id: '213828'
+  api_base_url: https://api.vocareum.com
+  templates:
+    - id: '5403065'
+      name: '"Lab"'
+      course_id: '213828'
+  template_assignment_ids: []
+  excluded_assignments: []
+assignments: []
+publish_history: []
