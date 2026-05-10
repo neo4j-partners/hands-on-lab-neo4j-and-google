@@ -1,4 +1,4 @@
-# Lab 5 - Exploration
+# Lab 5 - Explore
 
 In this lab, we'll use Explore, Neo4j's business intelligence (BI) tool, to explore our data.
 

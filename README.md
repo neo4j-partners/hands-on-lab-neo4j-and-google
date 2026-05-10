@@ -44,10 +44,10 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
   * Apache Beam and Google Dataflow
   * Apache Spark and Google Dataproc
   * Apache Kafka and Cloud Cloud
-* [Lab 4 - Moving Data](Lab%204%20-%20Moving%20Data/README.md) (15 min)
+* [Lab 4 - Query](Lab%204%20-%20Query/README.md) (15 min)
   * Simple Load Statement
   * More Performant Load
-* [Lab 5 - Exploration](Lab%205%20-%20Exploration/README.md) 10 min)
+* [Lab 5 - Explore](Lab%205%20-%20Explore/README.md) 10 min)
   * Exploration with Neo4j Explore
 * Break (5 min)
 

@@ -9,5 +9,12 @@ vocareum:
       course_id: '213828'
   template_assignment_ids: []
   excluded_assignments: []
-assignments: []
+assignments:
+  - assignment_id: null
+    name: Assignment 1 - Getting Started
+    path: Assignment 1 - Getting Started
+    parts:
+      - part_id: null
+        path: Lecture - Introduction to Neo4j
+    create_from_template: true
 publish_history: []
