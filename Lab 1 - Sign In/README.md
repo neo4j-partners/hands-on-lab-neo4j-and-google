@@ -6,11 +6,11 @@ Open a window back on the Vocareum assignments page [here](https://labs.vocareum
 
 ![](images/01.png)
 
-Click on "Cloud Environment"
+Click on "Cloud Environment" at the very bottom.
 
 ![](images/02.png)
 
-You should see a screen with some Google credentials along the side.  That is an ephemeral Google Cloud account.  You can use this to complete the lab.
+You should see a screen with some Google credentials along the right side.  That is an ephemeral Google Cloud account.  You can use this to complete the lab.
 
 Copy the link for the "Console."  You probably want to open it in an incognito window.  Alternatively you can log out of any Google account you're in and login with those credentials.
 
