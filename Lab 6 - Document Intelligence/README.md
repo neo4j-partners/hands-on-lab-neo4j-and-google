@@ -58,8 +58,20 @@ When you're done, click "Graph preview."
 
 We can explore the model a bit, zooming in and inspecting.  
 
-For the full view, we would need to import this into a Neo4j instance.  However, Document Intelligence in its preview state only supports Aura Free.  Aura Free is not available in GCMP, so this is the end of the road.
-
 ![](images/12.png)
+
+Click the icon in the upper right of the graph to expand the view.
+
+![](images/13.png)
+
+Explore a bit more...
+
+![](images/14.png)
+
+We can see the node for the home category includes streaming and wireless devices such as the HomePod, HomePod mini and Apple TV.
+
+![](images/15.png)
+
+For the full graph query functionality, we would need to import this into a Neo4j instance.  However, Document Intelligence in its preview state only supports Aura Free.  Aura Free is not available in GCMP, so this is the end of the road.
 
 We really hope you enjoyed this preview of Document Intelligence.  Please stay tuned for the full release and updates!
