@@ -56,6 +56,10 @@ When you're done, click "Graph preview."
 
 ![](images/11.png)
 
-Whoops....
+We can explore the model a bit, zooming in and inspecting.  
+
+For the full view, we would need to import this into a Neo4j instance.  However, Document Intelligence in its preview state only supports Aura Free.  Aura Free is not available in GCMP, so this is the end of the road.
 
 ![](images/12.png)
+
+We really hope you enjoyed this preview of Document Intelligence.  Please stay tuned for the full release and updates!
