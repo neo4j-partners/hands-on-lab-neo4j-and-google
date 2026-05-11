@@ -86,9 +86,14 @@ In my case, I set my instance name to user1684365460481394.
 
 Now, let's inspect the other options.
 
+
 ![](images/16.png)
 
-We can deploy in different regions.  It's possible to configure the amount of RAM and disk available.
+We're going to load a fair about of data, so need to bump the amount of RAM from 4GB to 8GB.  Do that.
+
+![](images/17.png)
+
+We can deploy in different regions.
 
 There are two options for Graph Analytics.  This feature provides access to 60+ graph alogrithms.  These run across your graph, computing things like centrality and node importance.  We'll keep the default.  That spins up computations on demand.  Another option is to collocate it in the database.
 
@@ -96,23 +101,23 @@ Finally, there's an option to optimize the database for vector search.  We'll be
 
 We've reached the bottom!  Click "Create Instance."
 
-![](images/17.png)
+![](images/18.png)
 
 You'll be presented with the credentials for your database.  Click "Download and continue."  That will download the credentials to a text file on your local machine.  
 
-![](images/18.png)
+![](images/19.png)
 
 A save dialog should pop up.  Be sure to save that file as you won't be able to get those credentials later.
 
-![](images/19.png)
+![](images/20.png)
 
 You'll see a dialog that your database is being created. This should only take a few minutes.
 
-![](images/20.png)
+![](images/21.png)
 
 When deployment is complete you'll see the instance details in the management console.  
 
-![](images/21.png)
+![](images/22.png)
 
 You can poke around the menus here a bit and see more on database status and connection information.
 
