@@ -59,7 +59,8 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
   * Generating Knowledge Graphs
   * Retrieval Augmented Generation
   * Using Gemini Enterprise with Neo4j
-* [Lab 6 - Document Intelligence](Lab%206%20-%20Document%20Intelligence/README.md) (20 min)
-* [Lab 7 - Deploy Neo4j Agent](Lab%207%20-%20Deploy%20Neo4j%20Agent/README.md) (20 min)
-* [Lab 8 - Use Neo4j Agent](Lab%208%20-%20Use%20Neo4j%20Agent/README.md) (20 min)
+* [Lab 6 - Document Intelligence](Lab%206%20-%20Document%20Intelligence/README.md) (15 min)
+* [Lab 7 - Deploy Neo4j Agent](Lab%207%20-%20Deploy%20Neo4j%20Agent/README.md) (15 min)
+* [Lab 8 - Use Neo4j Agent](Lab%208%20-%20Use%20Neo4j%20Agent/README.md) (15 min)
+* [Lab 9 - Aura Agent](Lab%209%20-%20Use%20Aura%20Agent/README.md) (15 min)
 * [Questions and Next Steps](Questions%20and%20Next%20Steps.md) (5 min)
