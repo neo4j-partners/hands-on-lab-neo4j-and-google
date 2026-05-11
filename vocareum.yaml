@@ -10,11 +10,10 @@ vocareum:
   template_assignment_ids: []
   excluded_assignments: []
 assignments:
-  - assignment_id: null
+  - assignment_id: "5403065"
     name: Assignment 1 - Getting Started
     path: Assignment 1 - Getting Started
     parts:
-      - part_id: null
+      - part_id: "5403066"
         path: Lecture - Introduction to Neo4j
-    create_from_template: true
 publish_history: []
