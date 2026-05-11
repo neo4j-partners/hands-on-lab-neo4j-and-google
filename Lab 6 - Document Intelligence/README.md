@@ -8,40 +8,54 @@ More recently Neo4j Labs, our experimental department, built a [LLM Graph Builde
 
 Document Intelligence is the next evolution of this, built into our Neo4j Aura product.
 
-Let's start at our Neo4j Aura Console.  In the left menu, click on "Document Intelligence."
+First off, download [this pdf](https://storage.googleapis.com/neo4j-datasets/hands-on-lab/Apple_10-K_2025_2_pages.pdf) and take a peek at it.  It's 2 pages of the 2025 10-K filed by Apple.  We're going to generate a knowledge graph from it.
 
 ![](images/01.png)
 
-Click "Create graph model."
+Let's start at our Neo4j Aura Console.  In the left menu, click on "Document Intelligence."
 
 ![](images/02.png)
 
-Click "Add data source."
+Click "Create graph model."
 
 ![](images/03.png)
 
-Click "Local files."
+Click "Add data source."
 
 ![](images/04.png)
 
-Select the file "hands-on-lab_Apple_10-K_2025_2_pages.pdf"
+Click "Local files."
 
 ![](images/05.png)
 
-Now click "Generate model."
+Select the file "hands-on-lab_Apple_10-K_2025_2_pages.pdf"
 
 ![](images/06.png)
+
+Now click "Generate model."
+
+![](images/07.png)
 
 For the promp enter:
 
     Extract products, services, segments and competition.
 
-![](images/07.png)
+![](images/08.png)
 
 Click "Save."
 
-![](images/08.png)
+![](images/09.png)
 
 The generator will run for a bit.
 
-![](images/09.png)
+![](images/10.png)
+
+When complete, you'll see a neat graph model.  You can zoom in and around, inspecting it.
+
+When you're done, click "Graph preview."
+
+![](images/11.png)
+
+Whoops....
+
+![](images/12.png)
