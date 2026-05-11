@@ -10,7 +10,7 @@ Now click on "Show me a graph."
 
 ![](images/02.png)
 
-In this case, we got a view with a a manager and a company node in the middle and then some surrounding nodes.
+In this case, we got a view with a manager and a company node in the middle and then some surrounding nodes.
 
 We can mouse over the company to see its name.
 
