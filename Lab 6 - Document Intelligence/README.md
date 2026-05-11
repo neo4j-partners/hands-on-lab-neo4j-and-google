@@ -12,7 +12,7 @@ First off, download [this pdf](https://storage.googleapis.com/neo4j-datasets/han
 
 ![](images/01.png)
 
-Let's start at our Neo4j Aura Console.  In the left menu, click on "Document Intelligence."
+Now, let's go to our Neo4j Aura Console.  In the left menu, click on "Document Intelligence."
 
 ![](images/02.png)
 
