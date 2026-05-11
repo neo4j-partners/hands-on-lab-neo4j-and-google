@@ -25,7 +25,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 ### Assignment 1 - Getting Started
 
 * Introductions
-* Lecture - [Introduction to Neo4j](https://docs.google.com/presentation/d/1J2pU4WNBmsnnIc8luJ2iISY5nSZPR5p9-bCTdLjtCS4/edit?usp=sharing) (10 min)
+* Lecture - [Introduction to Neo4j](https://docs.google.com/presentation/d/1J2pU4WNBmsnnIc8luJ2iISY5nSZPR5p9-bCTdLjtCS4/edit?usp=sharing) (15 min)
   * What is Neo4j?
   * How is it deployed and managed on Google Cloud?
 * [Lab 1 - Sign In](Lab%201%20-%20Sign%20In) (5 min)
@@ -33,7 +33,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
   * Sign into Google Cloud
 * [Lab 2 - Deploy Neo4j](Lab%202%20-%20Deploy%20Neo4j) (15 min)
   * Deploying Neo4j Aura Professional
-* [Lab 3 - Connect to Neo4j](Lab%203%20-%20Connect%20to%20Neo4j/README.md) (10 min)
+* [Lab 3 - Connect to Neo4j](Lab%203%20-%20Connect%20to%20Neo4j/README.md) (5 min)
 * Break (5 min)
 
 ### Assignment 2 - Query and Explore

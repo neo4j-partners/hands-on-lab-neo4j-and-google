@@ -1,66 +1,34 @@
 # Lab 3 - Connect to Neo4j
 
-In this lab, we're going to connect to the Neo4j deployment we created in the previous step.  To get started, open the Neo4j endpoint in the Google Cloud console by navigating [here](https://console.cloud.google.com/marketplace/product/endpoints/prod.n4gcp.neo4j.io).
+In this lab, we're going to connect to the Neo4j deployment we created in the previous step.  We'll start where we left off in lab 2.
 
-Click "MANAGE ON PROVIDER" to get to the Neo4j console.
+Click "Connect."
 
 ![](images/01.png)
 
-Once again, you'll need to agreee to the redirect.
+Then select "Query."
 
 ![](images/02.png)
 
-You should now see the Neo4j Aura console.
-
-Click "Connect" and select "Query" from the dropdown menu on the right
-
-![](images/03.png)
-
-Click "Accept" to agree to the terms.
-
-![](images/04.png)
-
-You'll now need to provide your password.  You can find that in the file we downloaded earlier.  In my case, the file was named Neo4j-6688b25b-Created-2023-09-20.txt.  It contained this content:
-
-    # Wait 60 seconds before connecting using these details, or login to https://console.neo4j.io to validate the Aura Instance is available
-    NEO4J_URI=neo4j+s://6688b25b.databases.neo4j.io
-    NEO4J_USERNAME=neo4j
-    NEO4J_PASSWORD=_kogrNk53u8oTk5be55kmit1kHGdhZj98yJlG-VYSR
-    AURA_INSTANCEID=6688b25b
-    AURA_INSTANCENAME=sec-edgar
-
-You can find your password in the credentials file you downloaded in [Lab 1](https://github.com/neo4j-partners/hands-on-lab-neo4j-and-vertex-ai/tree/main/Lab%201%20-%20Deploy%20Neo4j#deploying-aurads-professional).
-
-Enter your password and click "Connect."
-
-![](images/05.png)
-
-If the beginners guides pop up, click "X" to dismiss.
-
-![](images/06.png)
-
-We're now in Neo4j Workspace, a unified experience for working with graph data.  There are a number of views we will try out:
-
-1. Explore - This will open Neo4j Bloom, the business intelligence tool.
-2. Query - This will open Neo4j Browser, a tool where we can run database queries and inspect the results.
-3. Import - This opens the Neo4j Data Importer, a graphical tool for importing data into Neo4j.
-
-Let's start with Query or Neo4j Browser.  It should already be open.
+That will drop us into an empty database.
 
 There's nothing in our database yet.  We can see the nodes, relationships and property key areas are all blank.
 
-We can check what version of Neo4j Graph Data Science (GDS) is set up.  We can do that by entering the following command into the Neo4j the query field:
+We can try running a simple Cypher command.  For isntance we can show the databases in our instance.  We can do that by entering the following command into the Neo4j the query field:
 
-    RETURN gds.version() as version
+    SHOW DATABASES;
 
-Now click the run button, a triangle surrounded by a circle to run that command.
+![](images/03.png)
 
-![](images/07.png)
+Then press the triangle with a circle around it to run the query.
 
-You should see a GDS version number.
+![](images/04.png)
 
-![](images/08.png)
+You can see we have two databases:
 
-Since we got a Graph Data Science version back, we know that we're on AuraDS, not AuraDB.  This means that we have the libraries we'll need to connect with the Python client and use graph algorithms later in these labs.
+* neo4j - The default database
+* system - Used by the system to store internal information
+
+![](images/05.png)
 
 Assuming that all looks good, let's move on...
