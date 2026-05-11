@@ -48,7 +48,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
   * Simple Load Statement
   * More Performant Load
 * [Lab 5 - Explore](Lab%205%20-%20Explore/README.md) 10 min)
-  * Exploration with Neo4j Explore
+  * Graph Business Intelligence
 * Break (5 min)
 
 ### Assignment 3 - AI and Agents
