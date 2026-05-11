@@ -80,9 +80,13 @@ Vocareum and Neo4j Aura are currently interacting in a somewhat undesirable mann
 
 In the meantime, please name you instance using your Vocareum username.  That will allow you to distinguish your Neo4j Aura instances from those belonging to your classmates.
 
+In my case, I set my instance name to user1684365460481394.
+
 ![](images/15.png)
 
 Now, let's inspect the other options.
+
+![](images/16.png)
 
 We can deploy in different regions.  It's possible to configure the amount of RAM and disk available.
 
@@ -90,27 +94,25 @@ There are two options for Graph Analytics.  This feature provides access to 60+ 
 
 Finally, there's an option to optimize the database for vector search.  We'll be using vector functionality but our workloads will be comparatively light so we don't need this optimization.
 
-![](images/16.png)
-
 We've reached the bottom!  Click "Create Instance."
-
-![](images/16.png)
-
-You'll be presented with the credentials for your database.  Click "Download and continue."  That will download the credentials to a text file on your local machine.  
 
 ![](images/17.png)
 
-A save dialog should pop up.  Be sure to save that file as you won't be able to get those credentials later.
+You'll be presented with the credentials for your database.  Click "Download and continue."  That will download the credentials to a text file on your local machine.  
 
 ![](images/18.png)
 
-You'll see a dialog that your database is being created. This should only take a few minutes.
+A save dialog should pop up.  Be sure to save that file as you won't be able to get those credentials later.
 
 ![](images/19.png)
 
-When deployment is complete you'll see the instance details in the management console.  
+You'll see a dialog that your database is being created. This should only take a few minutes.
 
 ![](images/20.png)
+
+When deployment is complete you'll see the instance details in the management console.  
+
+![](images/21.png)
 
 You can poke around the menus here a bit and see more on database status and connection information.
 
