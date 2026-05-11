@@ -1,3 +1,5 @@
+# Lab 4 - Query
+
 In this lab, we're going to take data from a Google Cloud Storage bucket and import it into Neo4j.  There are a few different ways to do this.  We'll start with a very naive LOAD CSV statement and then improve it.  
 
 The Neo4j Data Importer is another option.  It's a great graphical way to import data.
