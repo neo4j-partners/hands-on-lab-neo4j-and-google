@@ -53,8 +53,10 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 
 ### Assignment 3 - AI and Agents
 
-* Lecture - [Gemini Enterprise](https://docs.google.com/presentation/d/1BowFoowrk0pTVqdScC4weBFZJ-xMTdHbvMUCW4ZyP68/edit?usp=sharing) (15 min)
-  * What is Gemini Enterprise?
+* Lecture - [Gemini Enterprise Agent Platform](https://docs.google.com/presentation/d/1OfZyApCct7uIn6Vk2ugf1JkPhy4ncnQ2HYWZixyHx_4/edit?usp=sharing) (15 min)
+  * Gemini Enterprise
+  * Gemini Enterprise Agent Platform
+  * Gemini Enterprise App
 * Lecture - [Neo4j and AI](https://docs.google.com/presentation/d/1q4Kc9EcbSCNDraB1ROMBVnDy8pJV6QMWz1E7Oo-6vNw/edit?usp=sharing) (15 min)
   * Generating Knowledge Graphs
   * Retrieval Augmented Generation

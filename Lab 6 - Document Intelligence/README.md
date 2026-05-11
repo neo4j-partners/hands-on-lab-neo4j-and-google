@@ -20,30 +20,28 @@ Click "Add data source."
 
 ![](images/03.png)
 
-Click "Google Cloud Storage."
+Click "Local files."
 
 ![](images/04.png)
 
-Enter the name of the data source as:
-
-    Apple 2025 10-K
+Select the file "hands-on-lab_Apple_10-K_2025_2_pages.pdf"
 
 ![](images/05.png)
 
-For the bucket path enter:
-
-    gs://neo4j-datasets/hands-on-lab/Apple_10-K_2025_2_pages.pdf
+Now click "Generate model."
 
 ![](images/06.png)
 
-Scroll to the bottom.
+For the promp enter:
+
+    Extract products, services, segments and competition.
 
 ![](images/07.png)
 
-Click "Confirm."
+Click "Save."
 
 ![](images/08.png)
 
-Failure - key required.
+The generator will run for a bit.
 
 ![](images/09.png)
