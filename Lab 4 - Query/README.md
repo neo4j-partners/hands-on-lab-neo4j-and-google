@@ -1,10 +1,8 @@
-# Lab 4 - Query
-
 In this lab, we're going to take data from a Google Cloud Storage bucket and import it into Neo4j.  There are a few different ways to do this.  We'll start with a very naive LOAD CSV statement and then improve it.  
 
-The Neo4j Data Importer is another option.  It's a great graphical way to import data.  However, the LOAD CSV option we're using makes it really easy to pull directly from Cloud Storage, so is probably a better choice for what we need.
+The Neo4j Data Importer is another option.  It's a great graphical way to import data.
 
-The dataset is from the SEC's EDGAR database.  These are public filings of something called Form 13.  Asset managers with over \$100m AUM are required to submit Form 13 quarterly.  That's then made available to the public over http.  We don't have time to download those in the lab today as they take a few hours.  But, if you're curious, they're all available [here](https://github.com/neo4j-partners/neo4j-sec-edgar-form13).  We've filtered the data to only include filings over $10m in value.
+The dataset is from the SEC's EDGAR database.  These are public filings of something called Form 13.  Asset managers with over \$100m AUM are required to submit Form 13 quarterly.  That's then made available to the public over http.  We don't have time to download those in the lab today as they take a few hours.  But, if you're curious, they're all available [here](https://github.com/neo4j-partners/neo4j-sec-edgar).  We've filtered the data to only include filings over $10m in value.
 
 ## Simple Load Statement
 
@@ -12,18 +10,16 @@ For this portion of the lab, we're going to work with a subset of the data.  Our
 
 You may want to download the data and load it into your favorite tool for exploring CSV files.  Pandas, Excel or anything else should be able to make short work of it.  Once you understand what's in the data, the next step would be to load it into Neo4j.
 
-To load it in Neo4j, let's open the tab that has our Neo4j Workspace in it.  If you don't have that tab open, you can review the previous lab to get into it.
+To load it in Neo4j, let's continue on with Neo4j Query.
 
-Make sure that "Query" is selected at the top.
-
-![](images/01.png)
-
-We're going to run a Cypher statement to load the data.  Cypher is Neo4j's query language.  `LOAD CSV` is part of that and allows us to easily load CSV data.  Try copying this command into Neo4j Workspace.
+We're going to run a Cypher statement to load the data.  Cypher is Neo4j's query language.  `LOAD CSV` is part of that and allows us to easily load CSV data.  Copy this command into the query field.
 
     LOAD CSV WITH HEADERS FROM "https://storage.googleapis.com/neo4j-datasets/hands-on-lab/form13-2023-05-11.csv" AS row
     MERGE (m:Manager {managerName:row.managerName})
     MERGE (c:Company {companyName:row.companyName, cusip:row.cusip})
     MERGE (m)-[r:OWNS {value:toFloat(row.value), shares:toInteger(row.shares), reportCalendarOrQuarter:date(row.reportCalendarOrQuarter)}]->(c);
+
+![](images/01.png)
 
 It should look like the following.  You can then press the blue triangle with a circle around it to run the job.
 
@@ -82,7 +78,7 @@ The LOAD CSV statement we used before was pretty naive.  It didn't create any in
 If you're curious, you can read a bit about the intracties of optimizing those loads here:
 
 * https://neo4j.com/developer/guide-import-csv/#_optimizing_load_csv_for_performance
-* https://graphacademy.neo4j.com/courses/importing-data/
+* https://graphacademy.neo4j.com/courses/importing-cypher/
 
 First, let's create constraints, essentially a primary key, for the company and manager node types.  Company keys should be CUSIPs.  We know a CUSIP is unique because that is the whole point of one.  They are identifiers for securities designed to be unique.  You can read more about them [here](https://www.cusip.com).  This is a much better field to use than nameOfIssuer (called companyName here) because it avoids the problem where some companies (like Apple or Apple, Inc.) are referred to by slightly different names.
 
