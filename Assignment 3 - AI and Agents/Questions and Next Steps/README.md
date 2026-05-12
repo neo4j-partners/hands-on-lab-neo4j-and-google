@@ -14,7 +14,7 @@ The lab deploys Neo4j AuraDS Professional through a deep integration in the Goog
 
 There are currently some issues you may have noticed in accessing the Aura console directly versus a redirect from the Google Cloud Console.  That's referred to as the punch out in Google Cloud Marketplace.  We're working to improve that experience.
 
-## Lab 4 - Moving Data
+## Lab 4 - Query
 
 We used LOAD CSV to pull data in.  That is one of many ways.  Neo4j Data Importer is another.  You may have noticed the tab for that in Aura.  We're exploring incorporating it into this lab.
 
@@ -22,7 +22,7 @@ We're also working with Google on [Dataflow](https://cloud.google.com/dataflow) 
 
 The Neo4j [Spark Connector](https://neo4j.com/docs/spark/current/) is another way to get data in.  We've been working with the Google [Dataproc](https://cloud.google.com/dataproc) team on some demos of that.  It works today but some walkthrough are in progress.
 
-## Lab 5 - Exploration
+## Lab 5 - Explore
 
 This section of the lab could be expanded.
 
@@ -35,6 +35,10 @@ To do.
 To do.
 
 ## Lab 8 - Use Neo4j Agent
+
+To do.
+
+## Lab 9 - Aura Agents
 
 To do.
 
