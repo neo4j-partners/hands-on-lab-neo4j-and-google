@@ -53,7 +53,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 
 ### Assignment 3 - AI and Agents
 
-* Lecture - Gemini Enterprise Agent Platform (15 min)
+* Lecture - Gemini Enterprise (15 min)
   * Gemini Enterprise
   * Gemini Enterprise Agent Platform
   * Gemini Enterprise App
