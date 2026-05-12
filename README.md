@@ -25,44 +25,44 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 ### Assignment 1 - Getting Started
 
 * Introductions
-* Lecture - [Introduction to Neo4j](https://docs.google.com/presentation/d/1J2pU4WNBmsnnIc8luJ2iISY5nSZPR5p9-bCTdLjtCS4/edit?usp=sharing) (15 min)
+* Lecture - Introduction to Neo4j (15 min)
   * What is Neo4j?
   * How is it deployed and managed on Google Cloud?
-* [Lab 1 - Sign In](Lab%201%20-%20Sign%20In) (5 min)
+* Lab 1 - Sign In (5 min)
   * Improving the Labs
   * Sign into Google Cloud
-* [Lab 2 - Deploy Neo4j](Lab%202%20-%20Deploy%20Neo4j) (15 min)
+* Lab 2 - Deploy Neo4j (15 min)
   * Deploying Neo4j Aura Professional
-* [Lab 3 - Connect to Neo4j](Lab%203%20-%20Connect%20to%20Neo4j/README.md) (5 min)
+* Lab 3 - Connect to Neo4j (5 min)
 * Break (5 min)
 
 ### Assignment 2 - Query and Explore
 
-* Lecture - [Moving Data](https://docs.google.com/presentation/d/1qqk37UVx3_vedC0WIU6j_kEG2MhhtqGzpbPXt8n_Z8Q/edit?usp=sharing) (10 min)
+* Lecture - Moving Data (10 min)
   * LOAD CSV
   * Neo4j Aura Importer
   * Apache Beam and Google Dataflow
   * Apache Spark and Google Dataproc
   * Apache Kafka and Cloud Cloud
-* [Lab 4 - Query](Lab%204%20-%20Query/README.md) (15 min)
+* Lab 4 - Query (15 min)
   * Simple Load Statement
   * More Performant Load
-* [Lab 5 - Explore](Lab%205%20-%20Explore/README.md) 10 min)
+* Lab 5 - Explore (10 min)
   * Graph Business Intelligence
 * Break (5 min)
 
 ### Assignment 3 - AI and Agents
 
-* Lecture - [Gemini Enterprise Agent Platform](https://docs.google.com/presentation/d/1OfZyApCct7uIn6Vk2ugf1JkPhy4ncnQ2HYWZixyHx_4/edit?usp=sharing) (15 min)
+* Lecture - Gemini Enterprise Agent Platform (15 min)
   * Gemini Enterprise
   * Gemini Enterprise Agent Platform
   * Gemini Enterprise App
-* Lecture - [Neo4j and AI](https://docs.google.com/presentation/d/1q4Kc9EcbSCNDraB1ROMBVnDy8pJV6QMWz1E7Oo-6vNw/edit?usp=sharing) (15 min)
+* Lecture - Neo4j and AI (15 min)
   * Generating Knowledge Graphs
   * Retrieval Augmented Generation
   * Using Gemini Enterprise with Neo4j
-* [Lab 6 - Document Intelligence](Lab%206%20-%20Document%20Intelligence/README.md) (15 min)
-* [Lab 7 - Deploy Neo4j Agent](Lab%207%20-%20Deploy%20Neo4j%20Agent/README.md) (15 min)
-* [Lab 8 - Use Neo4j Agent](Lab%208%20-%20Use%20Neo4j%20Agent/README.md) (15 min)
-* [Lab 9 - Aura Agent](Lab%209%20-%20Use%20Aura%20Agent/README.md) (15 min)
-* [Questions and Next Steps](Questions%20and%20Next%20Steps.md) (5 min)
+* Lab 6 - Document Intelligence (15 min)
+* Lab 7 - Deploy Neo4j Agent (15 min)
+* Lab 8 - Use Neo4j Agent (15 min)
+* Lab 9 - Aura Agent (15 min)
+* Questions and Next Steps (5 min)
