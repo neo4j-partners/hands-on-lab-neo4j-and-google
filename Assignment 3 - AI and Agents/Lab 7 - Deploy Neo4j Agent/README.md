@@ -14,66 +14,59 @@ Anyway... Let's go set Neo4j Agent up in Gemini Enterprise.  Click the "Go to Ge
 
 ![](images/01.png)
 
-Type "Gemini Enterprise" in the search bar.
+Click "Start 30-day free trial."
 
 ![](images/02.png)
 
-Click "Start 30-day free trial."
-
-![](images/04.png)
-
 Click "Continue and activate the API."
 
-![](images/05.png)
+![](images/03.png)
 
 That will run for a minute...
 
-![](images/06.png)
+![](images/04.png)
 
 Dismiss the "You have successfully onboarded to Gemini Enterprise" dialog.
 
-![](images/07.png)
+![](images/05.png)
 
 Click "Create."
 
-![](images/08.png)
+![](images/06.png)
 
 Dismiss "App created successfully."
 
-![](images/09.png)
+![](images/07.png)
 
 Click on "Agents" in the menu on the left.
 
-![](images/10.png)
+![](images/08.png)
 
 Click "+ Add Agent."
 
-![](images/11.png)
+![](images/09.png)
 
 On the "Agents via Marketplace" tile click "Add."
 
-![](images/12.png)
+![](images/10.png)
 
 Select "Neo4j Agent by Neo4j" and click "Next."
 
-![](images/13.png)
+![](images/11.png)
 
 Click "Next."
 
-![](images/14.png)
+![](images/12.png)
 
 Click "Finish."
 
-![](images/15.png)
+![](images/13.png)
 
 When complete, you should be redirected.  Dismiss the "Your agent was completed successfully" dialog.
 
-![](images/16.png)
+![](images/14.png)
 
 Great!  Our agent is now installed in our Gemini Enterprise instance.
 
-![](images/17.png)
+![](images/15.png)
 
-The next step is to configure the agent.  We can do that at the setup page [here](https://graphrag-gcp.neo4j.agency/setup).
-
-![](images/18.png)
