@@ -14,11 +14,11 @@ Click "Start lab" in the upper right.
 
 ![](images/03.png)
 
-It should now say "Starting lab."  When complete and the GCP icon in the left is green, click that.
+It should now say "Starting lab."  Click the yellow icon for GCP on left to open up a screen with detail.
 
 ![](images/04.png)
 
-You should see a screen with some Google credentials along the right side.  That is an ephemeral Google Cloud account.  You can use this to complete the lab.
+When complete and the icon is green, you should see Google credentials along the right side.  That is an ephemeral Google Cloud account.  You can use this to complete the lab.
 
 ![](images/05.png)
 
