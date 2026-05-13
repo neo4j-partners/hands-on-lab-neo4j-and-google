@@ -42,8 +42,16 @@ We're now in the Google Cloud Console.  Click the check box if you agree to the 
 
 ![](images/09.png)
 
-Now you're all set, logged into a Google Cloud account.
+Now we're logged in.  Click "Select a project" at the top.
 
 ![](images/10.png)
+
+You should see one project.  Select that.
+
+![](images/11.png)
+
+Now you're all set, logged into a Google Cloud account.
+
+![](images/12.png)
 
 In the next lab we'll deploy Neo4j.
