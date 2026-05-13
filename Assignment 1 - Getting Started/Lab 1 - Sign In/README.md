@@ -10,30 +10,40 @@ Click on "Cloud Environment" at the very bottom.
 
 ![](images/02.png)
 
-You should see a screen with some Google credentials along the right side.  That is an ephemeral Google Cloud account.  You can use this to complete the lab.
-
-Copy the link for the "Console."  You probably want to open it in an incognito window.  Alternatively you can log out of any Google account you're in and login with those credentials.
+Click "Start lab" in the upper right.
 
 ![](images/03.png)
 
-Enter your Vocareum credentials from the last step.  The email address will be something like user1684365330797fed@vocareumlabs.com.  Click next.
+It should now say "Starting lab."  When complete and the GCP icon in the left is green, click that.
 
 ![](images/04.png)
 
-Enter the password.  Click "Next."
+You should see a screen with some Google credentials along the right side.  That is an ephemeral Google Cloud account.  You can use this to complete the lab.
 
 ![](images/05.png)
 
-Review the terms.  Click "I understand" if they are acceptable.
+We're now going to open the Google Cloud Console at [https://console.cloud.google.com/](https://console.cloud.google.com/)
+
+You probably want to open it in an incognito window.  Alternatively you can log out of any Google account you're in and login with those credentials.
+
+Enter your Vocareum credentials from the last step.  The email address will be something like user1684365330797fed@vocareumlabs.com.  Click next.
 
 ![](images/06.png)
 
-We're now in the Google Cloud Console.  Click the check box if you agree to the terms.  Then click "Agree and continue."
+Enter the password.  Click "Next."
 
 ![](images/07.png)
 
-Now you're all set, logged into a Google Cloud account.
+Review the terms.  Click "I understand" if they are acceptable.
 
 ![](images/08.png)
+
+We're now in the Google Cloud Console.  Click the check box if you agree to the terms.  Then click "Agree and continue."
+
+![](images/09.png)
+
+Now you're all set, logged into a Google Cloud account.
+
+![](images/10.png)
 
 In the next lab we'll deploy Neo4j.
