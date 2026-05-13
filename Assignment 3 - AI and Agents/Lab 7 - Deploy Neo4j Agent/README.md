@@ -8,17 +8,15 @@ The Agent is available in the Google Cloud Marketplace.  It's wrapped in the Age
 
 So, let's get started.  You can open the Neo4j Agent listing [here](https://console.cloud.google.com/marketplace/product/neo4j-mp-public/neo4j-agent).  
 
-![](images/01.png)
+Our administrator has already subscribed to this listing for us.  They've also configured it, connected to an AuraDB Business Critical intance.  If you're curious to understand the steps involved, you can read them [here](https://github.com/neo4j-labs/neo4j-agent-integrations/blob/main/google-gemini-enterprise/3-a2a-ge-marketplace/customer_guide.md).  In future versions of this lab we'd like to let you configure.  However due to a Vocareum restriction everyone is sharing a single billing account.  The result in that's not possible today.
 
-Our adminsitrator has already subscribed to this listing for us.  So, let's go set it up in Gemini Enterprise.  Navigate to the cloud console [here](https://console.cloud.google.com/).
+Anyway... Let's go set Neo4j Agent up in Gemini Enterprise.  Click the "Go to Gemini Enterprise" button.
+
+![](images/01.png)
 
 Type "Gemini Enterprise" in the search bar.
 
 ![](images/02.png)
-
-Click on the "Gemini Enterprise" product result.
-
-![](images/03.png)
 
 Click "Start 30-day free trial."
 
