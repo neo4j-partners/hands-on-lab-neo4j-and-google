@@ -66,7 +66,12 @@ When complete, you should be redirected.  Dismiss the "Your agent was completed 
 
 ![](images/14.png)
 
-Great!  Our agent is now installed in our Gemini Enterprise instance.
+We can click on the blue "Neo4j Agent" link to inspect it.
 
 ![](images/15.png)
 
+Great!  Our agent is now installed in our Gemini Enterprise instance.
+
+![](images/16.png)
+
+In the next lab, we'll log into Gemini Enterprise and use the agent!
