@@ -4,7 +4,7 @@ In this lab, we're going to take data from a Google Cloud Storage bucket and imp
 
 The Neo4j Data Importer is another option.  It's a great graphical way to import data.
 
-The dataset is from the SEC's EDGAR database.  These are public filings of something called Form 13.  Asset managers with over \$100m AUM are required to submit Form 13 quarterly.  That's then made available to the public over http.  We don't have time to download those in the lab today as they take a few hours.  But, if you're curious, they're all available [here](https://github.com/neo4j-partners/neo4j-sec-edgar).  We've filtered the data to only include filings over $10m in value.
+The dataset is from the SEC's EDGAR database.  These are public filings of something called Form 13.  Asset managers with over 100m AUM are required to submit Form 13 quarterly.  That's then made available to the public over http.  We don't have time to download those in the lab today as they take a few hours.  But, if you're curious, they're all available [here](https://github.com/neo4j-partners/neo4j-sec-edgar).  We've filtered the data to only include filings over 10m in value.
 
 ## Simple Load Statement
 
@@ -51,7 +51,7 @@ Select "Expand selected."
 
 ![](images/06.png)
 
-When it expands, we can see what companies this manager owns shares in.  In this case, "Smithfield Trust Co" seems to only have five holdings.  Note that this data set only has holdings over $10m.  Smaller holdings were filtered out in pre-processing.
+When it expands, we can see what companies this manager owns shares in.  In this case, "Smithfield Trust Co" seems to only have five holdings.  Note that this data set only has holdings over 10m.  Smaller holdings were filtered out in pre-processing.
 
 Try selecting a company that is connected to our manager.
 
@@ -63,7 +63,7 @@ We can also click on the relationship, that is the line between the nodes to see
 
 ![](images/08.png)
 
-In this case, it appears we have a report from 2023-03-31 that 3008 shares were purchased with a value of $310,715,000.  That number of shares is almost certainly missing some zeroes.  Sometimes these regulatory filings have significant quality challenges.  It seems we've just uncovered one!
+In this case, it appears we have a report from 2023-03-31 that 3008 shares were purchased with a value of 310,715,000.  That number of shares is almost certainly missing some zeroes.  Sometimes these regulatory filings have significant quality challenges.  It seems we've just uncovered one!
 
 At this point, take some time to poke around the graph.  You can expand it by clicking the icon with two arrows pointing away from each other in the upper right.  
 
