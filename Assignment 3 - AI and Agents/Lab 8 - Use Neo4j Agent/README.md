@@ -98,10 +98,8 @@ We see a bunch of companies.
 
 Some other ideas for queries include:
 
-    What manager owns the most companies?
-
-    What manager owns the least companies?
-
-    Which managers own Exxon?
+* What manager owns the most companies?
+* What manager owns the least companies?
+* Which managers own Exxon?
 
 Feel free to play around, though please don't nuke the database as everyone else is using it to.
