@@ -92,6 +92,10 @@ Hit enter.
 
 ![](images/18.png)
 
+We see a bunch of companies.
+
+![](images/19.png)
+
 Some other ideas for queries include:
 
     What manager owns the most companies?
