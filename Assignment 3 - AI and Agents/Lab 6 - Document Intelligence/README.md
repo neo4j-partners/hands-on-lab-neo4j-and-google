@@ -72,6 +72,6 @@ We can see the node for the home category includes streaming and wireless device
 
 ![](images/15.png)
 
-For the full graph query functionality, we would need to import this into a Neo4j instance.  However, Document Intelligence in its preview state only supports Aura Free.  Aura Free is not available in GCMP, so this is the end of the road.
+For the full graph query functionality, we would need to import this into a Neo4j instance.  Support for that feature went live on Aura Pro and BC 5/14.  So, we haven't had a chance to work it into the lab material yet.  Feel free to experiment though!
 
 We really hope you enjoyed this preview of Document Intelligence.  Please stay tuned for the full release and updates!
