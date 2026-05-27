@@ -45,8 +45,3 @@ We could immprove the queries here as well and explore a bit more about deployin
 We hope you enjoyed these labs.  If you have any questions, feel free to reach out directly to any of us.  We'd love the opportunity to explore and support your use cases with your data.
 
 Your feedback is enormously appreciated.  If you see bugs, please report them [here](https://github.com/neo4j-partners/hands-on-lab-neo4j-and-google/issues).
-
-And, if you have time, please complete [this survey](https://www.surveymonkey.com/r/VC6SWXR
-).
-
-![](images/01.png)
