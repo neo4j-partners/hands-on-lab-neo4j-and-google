@@ -48,24 +48,6 @@ Now we are in the Aura Console.  Click on "GCP marketplace project."
 
 ![](images/09.png)
 
-You'll then be presented with a dialog to gather information about your use case.  For "Company / Institution" you can enter "Vocareum" and click "Next."
-
-Note that we're starting to build a labeled property graph describing our use case.
-
-![](images/10.png)
-
-Click "Build a graph-powered application."  After all, we're going to be building some agent powered applications on top of Neo4j!
-
-![](images/11.png)
-
-Click "Data Scientist."  Even if that's not your job title, you are today.  We'll be using Graph Analytics!
-
-![](images/12.png)
-
-Now click "Generative AI."  We're going to be using Google Gemini Enterprise to build agents.
-
-![](images/13.png)
-
 We're now presented with a choice of product tiers within Neo4j:
 
 * Free
@@ -74,7 +56,7 @@ We're now presented with a choice of product tiers within Neo4j:
 
 The Free tier is a great way to get started experimenting.  Business Critical offers a 3 node fault tolerant and highly available cluster.  We don't really need that for this lab.  The Professional tier has similar functionality with a single node.  Select "Professional."
 
-![](images/14.png)
+![](images/10.png)
 
 Vocareum and Neo4j Aura are currently interacting in a somewhat undesirable manner.  The Neo4j Aura Organizations and Projects are viewable to everyone within this Vocareum course.  While each user has their own username and project, they all share a single billing account.  We're working on improving this.
 
@@ -82,16 +64,15 @@ In the meantime, please name you instance using your Vocareum username.  That wi
 
 In my case, I set my instance name to user1684365460481394.
 
-![](images/15.png)
+![](images/11.png)
 
 Now, let's inspect the other options.
 
-
-![](images/16.png)
+![](images/12.png)
 
 We're going to load a fair about of data, so need to bump the amount of RAM from 4GB to 8GB.  Do that.
 
-![](images/17.png)
+![](images/13.png)
 
 We can deploy in different regions.
 
@@ -101,23 +82,23 @@ Finally, there's an option to optimize the database for vector search.  We'll be
 
 We've reached the bottom!  Click "Create Instance."
 
-![](images/18.png)
+![](images/14.png)
 
 You'll be presented with the credentials for your database.  Click "Download and continue."  That will download the credentials to a text file on your local machine.  
 
-![](images/19.png)
+![](images/15.png)
 
 A save dialog should pop up.  Be sure to save that file as you won't be able to get those credentials later.
 
-![](images/20.png)
+![](images/16.png)
 
 You'll see a dialog that your database is being created. This should only take a few minutes.
 
-![](images/21.png)
+![](images/17.png)
 
 When deployment is complete you'll see the instance details in the management console.  
 
-![](images/22.png)
+![](images/18.png)
 
 You can poke around the menus here a bit and see more on database status and connection information.
 
