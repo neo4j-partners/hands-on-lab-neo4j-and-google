@@ -494,6 +494,192 @@ assignments:
               - Nav Bar
           tags: []
 publish_history:
+  - timestamp: '2026-09-22T15:48:38.931Z'
+    commit_sha: f3160e7
+    published_by: Ben Lackey
+    status: success
+    content_state:
+      assignment-1-getting-started/lecture-introduction-to-neo4j/docs: e0cc8221329b6ed44cbc498b067888fad46103c79673b36a7fa696af9b39ac61
+      assignment-1-getting-started/lecture-introduction-to-neo4j/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lecture-introduction-to-neo4j/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lecture-introduction-to-neo4j/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lecture-introduction-to-neo4j/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-1-sign-in/docs: 9fe8bc798066d1a1b9f002cf2f440c57b255b720338e3aba274b03772a34b44b
+      assignment-1-getting-started/lab-1-sign-in/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lab-1-sign-in/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-1-sign-in/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-1-sign-in/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs: 83a0edbcc2e7acd8b346783f449a50436f74886c712561e1403e9b7e538d7b1a
+      assignment-1-getting-started/lab-2-deploy-neo4j/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lab-2-deploy-neo4j/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-2-deploy-neo4j/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-2-deploy-neo4j/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs: 2436f44fdc819cbb5566ca171a73dcdc9f0103e8485eeb2ea7e68ac149cd0fd7
+      assignment-1-getting-started/lab-3-connect-to-neo4j/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lab-3-connect-to-neo4j/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-3-connect-to-neo4j/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-3-connect-to-neo4j/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lecture-moving-data/docs: 5d98a9ba94453cd7f2aed43c39e8b28a622e30992342f2694f06b26f3dcaf56f
+      assignment-2-query-and-explore/lecture-moving-data/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-2-query-and-explore/lecture-moving-data/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lecture-moving-data/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lecture-moving-data/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-4-query/docs: d6b815812d0793d3c05c11c81df1b236ad1f448460aa49813bc171d8b0d95115
+      assignment-2-query-and-explore/lab-4-query/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-2-query-and-explore/lab-4-query/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-4-query/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-4-query/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-5-explore/docs: d20a73ba5d40bfb6cd523d36a12bce7916915e37be1222b942bec0337fc108f9
+      assignment-2-query-and-explore/lab-5-explore/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-2-query-and-explore/lab-5-explore/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-5-explore/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-query-and-explore/lab-5-explore/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-gemini-enterprise/docs: b564fc432ac7b547129ea583d6986f2926b730cb5e32a5d65ece07f3938c26a7
+      assignment-3-ai-and-agents/lecture-gemini-enterprise/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lecture-gemini-enterprise/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-gemini-enterprise/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-gemini-enterprise/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/docs: 45d4fc7275edafff2de26f7ec0a5c8225148f130b3484adf30b22023f9c6c8a1
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs: 5304b8ff6d82295cbf868c160f34f36486a1ca7725bd276792fb717e6c2e73a3
+      assignment-3-ai-and-agents/lab-6-document-intelligence/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-6-document-intelligence/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-6-document-intelligence/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-6-document-intelligence/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-7-deploy-neo4j-agent/docs: 2439f539381721d666d5dd9ed982aaef251477e07af3b67ebec04eba1058b9ac
+      assignment-3-ai-and-agents/lab-7-deploy-neo4j-agent/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-7-deploy-neo4j-agent/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-7-deploy-neo4j-agent/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-7-deploy-neo4j-agent/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-8-use-neo4j-agent/docs: 5e17875411d1d5291cf7425ea72b098b534cc67d55c4c9c293016454eebce59b
+      assignment-3-ai-and-agents/lab-8-use-neo4j-agent/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-8-use-neo4j-agent/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-8-use-neo4j-agent/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-8-use-neo4j-agent/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-9-aura-agents/docs: f82e335192dbe4ad445d8eff39cbbc3b64c2da4f191c857ac0aabba041cecf35
+      assignment-3-ai-and-agents/lab-9-aura-agents/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-9-aura-agents/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-9-aura-agents/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-9-aura-agents/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-next-steps/docs: 0b65c370d37b95880e65b79a147909b9c4fd41469730e4b2873ef0dd7e15b436
+      assignment-3-ai-and-agents/lecture-next-steps/scripts: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-next-steps/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-next-steps/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-next-steps/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      cloud-environment/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+    file_size_state:
+      assignment-3-ai-and-agents/lecture-next-steps/docs/README.md: 340
+      assignment-1-getting-started/lab-1-sign-in/docs/README.md: 1736
+      assignment-1-getting-started/lab-1-sign-in/docs/images/01.png: 859800
+      assignment-1-getting-started/lab-1-sign-in/docs/images/02.png: 850742
+      assignment-1-getting-started/lab-1-sign-in/docs/images/03.png: 756913
+      assignment-1-getting-started/lab-1-sign-in/docs/images/04.png: 758492
+      assignment-1-getting-started/lab-1-sign-in/docs/images/05.png: 456536
+      assignment-1-getting-started/lab-1-sign-in/docs/images/06.png: 705418
+      assignment-1-getting-started/lab-1-sign-in/docs/images/07.png: 689252
+      assignment-1-getting-started/lab-1-sign-in/docs/images/08.png: 1016350
+      assignment-1-getting-started/lab-1-sign-in/docs/images/09.png: 983201
+      assignment-1-getting-started/lab-1-sign-in/docs/images/10.png: 833854
+      assignment-1-getting-started/lab-1-sign-in/docs/images/11.png: 857281
+      assignment-1-getting-started/lab-1-sign-in/docs/images/12.png: 908159
+    changes:
+      files:
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/README.md
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 1736
+          delta: 1736
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/01.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 859800
+          delta: 859800
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/02.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 850742
+          delta: 850742
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/03.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 756913
+          delta: 756913
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/04.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 758492
+          delta: 758492
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/05.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 456536
+          delta: 456536
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/06.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 705418
+          delta: 705418
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/07.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 689252
+          delta: 689252
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/08.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 1016350
+          delta: 1016350
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/09.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 983201
+          delta: 983201
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/10.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 833854
+          delta: 833854
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/11.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 857281
+          delta: 857281
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/12.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 908159
+          delta: 908159
+    created: []
+    updated:
+      - assignment: '5403065'
+        parts:
+          - '5403073'
+      - assignment: '5403069'
+        parts: []
+      - assignment: '5403071'
+        parts: []
+      - assignment: '5403146'
+        parts: []
   - timestamp: '2026-09-21T20:45:32.513Z'
     commit_sha: b7fb092
     published_by: Ben Lackey
