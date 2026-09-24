@@ -31,20 +31,20 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 * Lab 1 - Sign In (5 min)
   * Improving the Labs
   * Sign into Google Cloud
-* Lab 2 - Deploy Neo4j (15 min)
+* Lab 2 - Deploy Neo4j (10 min)
   * Deploying Neo4j Aura Professional
 * Lab 3 - Connect to Neo4j (5 min)
 * Break (5 min)
 
 ### Assignment 2 - Query and Explore
 
-* Lecture - Moving Data (10 min)
+* Lecture - Moving Data (5 min)
   * LOAD CSV
   * Neo4j Aura Importer
   * Apache Beam and Google Dataflow
   * Apache Spark and Google Dataproc
   * Apache Kafka and Cloud Cloud
-* Lab 4 - Query (15 min)
+* Lab 4 - Query (10 min)
   * Simple Load Statement
   * More Performant Load
 * Lab 5 - Explore (10 min)
@@ -53,7 +53,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 
 ### Assignment 3 - AI and Agents
 
-* Lecture - Gemini Enterprise (15 min)
+* Lecture - Gemini Enterprise (20 min)
   * Gemini Enterprise
   * Gemini Enterprise Agent Platform
   * Gemini Enterprise App
@@ -65,4 +65,4 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 * Lab 7 - Deploy Neo4j Agent (15 min)
 * Lab 8 - Use Neo4j Agent (15 min)
 * Lab 9 - Aura Agent (15 min)
-* Questions and Next Steps (5 min)
+* Questions and Next Steps (15 min)
