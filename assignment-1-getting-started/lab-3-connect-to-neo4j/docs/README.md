@@ -20,7 +20,7 @@ We can try running a simple Cypher command.  For isntance we can show the databa
 
 ![](images/03.png)
 
-Then press the triangle with a circle around it to run the query.
+Then click "Run."
 
 ![](images/04.png)
 
