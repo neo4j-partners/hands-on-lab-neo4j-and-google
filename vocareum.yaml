@@ -494,6 +494,650 @@ assignments:
               - Nav Bar
           tags: []
 publish_history:
+  - timestamp: '2026-10-01T05:35:17.000Z'
+    commit_sha: 3858af8
+    published_by: Ben Lackey
+    status: success
+    content_state:
+      assignment-1-getting-started/lecture-introduction-to-neo4j/docs: e0cc8221329b6ed44cbc498b067888fad46103c79673b36a7fa696af9b39ac61
+      assignment-1-getting-started/lecture-introduction-to-neo4j/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lecture-introduction-to-neo4j/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lecture-introduction-to-neo4j/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lecture-introduction-to-neo4j/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-1-sign-in/docs: 5773b90122183f392dbd15e8196558441d28882cdc94ce39ce0fe8977126c518
+      assignment-1-getting-started/lab-1-sign-in/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lab-1-sign-in/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-1-sign-in/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-1-sign-in/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs: 8dff77f067706bda56f5cbe83ef6f5b5f92eb1624206f328fec54342e8889ee1
+      assignment-1-getting-started/lab-2-deploy-neo4j/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lab-2-deploy-neo4j/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-2-deploy-neo4j/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-2-deploy-neo4j/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs: 0d0146ad807265c656b67e3725abd4b949a7a47c278871e83d6c4a1793eeffe5
+      assignment-1-getting-started/lab-3-connect-to-neo4j/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-1-getting-started/lab-3-connect-to-neo4j/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-3-connect-to-neo4j/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-1-getting-started/lab-3-connect-to-neo4j/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-moving-data/lecture-moving-data/docs: 5d98a9ba94453cd7f2aed43c39e8b28a622e30992342f2694f06b26f3dcaf56f
+      assignment-2-moving-data/lecture-moving-data/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-2-moving-data/lecture-moving-data/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-moving-data/lecture-moving-data/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-moving-data/lecture-moving-data/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-moving-data/lab-4-query/docs: af5ab7b0520448d2c96458dc9855e02ae7f939bde89f5127018bac269bb18717
+      assignment-2-moving-data/lab-4-query/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-2-moving-data/lab-4-query/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-moving-data/lab-4-query/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-moving-data/lab-4-query/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-moving-data/lab-5-bloom/docs: cb0b7e6f3c08a3f9ef8f074d4963303e13cb6abcb8568981bc7241f831acdbbe
+      assignment-2-moving-data/lab-5-bloom/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-2-moving-data/lab-5-bloom/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-moving-data/lab-5-bloom/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-2-moving-data/lab-5-bloom/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-gemini-enterprise/docs: b564fc432ac7b547129ea583d6986f2926b730cb5e32a5d65ece07f3938c26a7
+      assignment-3-ai-and-agents/lecture-gemini-enterprise/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lecture-gemini-enterprise/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-gemini-enterprise/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-gemini-enterprise/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/docs: 45d4fc7275edafff2de26f7ec0a5c8225148f130b3484adf30b22023f9c6c8a1
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-neo4j-and-ai/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-6-document-intelligence/docs: 5304b8ff6d82295cbf868c160f34f36486a1ca7725bd276792fb717e6c2e73a3
+      assignment-3-ai-and-agents/lab-6-document-intelligence/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-6-document-intelligence/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-6-document-intelligence/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-6-document-intelligence/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-7-deploy-neo4j-agent/docs: 2439f539381721d666d5dd9ed982aaef251477e07af3b67ebec04eba1058b9ac
+      assignment-3-ai-and-agents/lab-7-deploy-neo4j-agent/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-7-deploy-neo4j-agent/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-7-deploy-neo4j-agent/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-7-deploy-neo4j-agent/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-8-use-neo4j-agent/docs: 5e17875411d1d5291cf7425ea72b098b534cc67d55c4c9c293016454eebce59b
+      assignment-3-ai-and-agents/lab-8-use-neo4j-agent/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-8-use-neo4j-agent/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-8-use-neo4j-agent/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-8-use-neo4j-agent/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-9-aura-agents/docs: f82e335192dbe4ad445d8eff39cbbc3b64c2da4f191c857ac0aabba041cecf35
+      assignment-3-ai-and-agents/lab-9-aura-agents/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lab-9-aura-agents/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-9-aura-agents/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lab-9-aura-agents/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-next-steps/docs: 0b65c370d37b95880e65b79a147909b9c4fd41469730e4b2873ef0dd7e15b436
+      assignment-3-ai-and-agents/lecture-next-steps/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      assignment-3-ai-and-agents/lecture-next-steps/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-next-steps/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      assignment-3-ai-and-agents/lecture-next-steps/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/docs: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/scripts: 7ba7a231351ea693cd3fbd24202cc38a5b8ff199558365e668625a3816ae2530
+      cloud-environment/startercode: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/private: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+      cloud-environment/data: 2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+    file_size_state:
+      assignment-1-getting-started/lab-1-sign-in/docs/README.md: 1668
+      assignment-1-getting-started/lab-1-sign-in/docs/images/.DS_Store: 6148
+      assignment-1-getting-started/lab-1-sign-in/docs/images/01.png: 872432
+      assignment-1-getting-started/lab-1-sign-in/docs/images/02.png: 861548
+      assignment-1-getting-started/lab-1-sign-in/docs/images/03.png: 643355
+      assignment-1-getting-started/lab-1-sign-in/docs/images/04.png: 641479
+      assignment-1-getting-started/lab-1-sign-in/docs/images/05.png: 683404
+      assignment-1-getting-started/lab-1-sign-in/docs/images/06.png: 726925
+      assignment-1-getting-started/lab-1-sign-in/docs/images/07.png: 698880
+      assignment-1-getting-started/lab-1-sign-in/docs/images/08.png: 722107
+      assignment-1-getting-started/lab-1-sign-in/docs/images/09.png: 1483756
+      assignment-1-getting-started/lab-1-sign-in/docs/images/10.png: 894079
+      assignment-1-getting-started/lab-1-sign-in/docs/images/11.png: 865296
+      assignment-1-getting-started/lab-1-sign-in/docs/images/12.png: 941178
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/README.md: 3924
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/.DS_Store: 6148
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/01.png: 941178
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/02.png: 633175
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/03.png: 991405
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/04.png: 1009386
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/05.png: 977402
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/06.png: 972840
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/07.png: 742114
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/08.png: 826287
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/09.png: 1213564
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/10.png: 1202450
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/11.png: 982699
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/12.png: 1038921
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/13.png: 547407
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/14.png: 828909
+      assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/15.png: 871903
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/README.md: 858
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/.DS_Store: 6148
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/01.png: 863315
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/02.png: 889800
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/03.png: 1050296
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/04.png: 1047133
+      assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/05.png: 997800
+      assignment-2-moving-data/lab-4-query/docs/README.md: 8840
+      assignment-2-moving-data/lab-4-query/docs/images/.DS_Store: 6148
+      assignment-2-moving-data/lab-4-query/docs/images/01.png: 1050623
+      assignment-2-moving-data/lab-4-query/docs/images/02.png: 1154509
+      assignment-2-moving-data/lab-4-query/docs/images/03.png: 1096842
+      assignment-2-moving-data/lab-4-query/docs/images/04.png: 1136058
+      assignment-2-moving-data/lab-4-query/docs/images/05.png: 1023372
+      assignment-2-moving-data/lab-4-query/docs/images/06.png: 1053773
+      assignment-2-moving-data/lab-4-query/docs/images/07.png: 1091273
+      assignment-2-moving-data/lab-4-query/docs/images/08.png: 1057587
+      assignment-2-moving-data/lab-4-query/docs/images/09.png: 1063651
+      assignment-2-moving-data/lab-4-query/docs/images/10.png: 1076307
+      assignment-2-moving-data/lab-4-query/docs/images/11.png: 1221649
+      assignment-2-moving-data/lab-4-query/docs/images/12.png: 1093243
+      assignment-2-moving-data/lab-4-query/docs/images/13.png: 1090138
+      assignment-2-moving-data/lab-4-query/docs/images/14.png: 1068669
+      assignment-2-moving-data/lab-4-query/docs/images/15.png: 1143840
+      assignment-2-moving-data/lab-4-query/docs/images/16.png: 1160238
+      assignment-2-moving-data/lab-4-query/docs/images/17.png: 1152653
+      assignment-2-moving-data/lab-4-query/docs/images/18.png: 1198130
+      assignment-2-moving-data/lab-5-bloom/docs/README.md: 1863
+      assignment-2-moving-data/lab-5-bloom/docs/images/.DS_Store: 6148
+      assignment-2-moving-data/lab-5-bloom/docs/images/01.png: 1198517
+      assignment-2-moving-data/lab-5-bloom/docs/images/02.png: 948712
+      assignment-2-moving-data/lab-5-bloom/docs/images/03.png: 1022227
+      assignment-2-moving-data/lab-5-bloom/docs/images/04.png: 1020718
+      assignment-2-moving-data/lab-5-bloom/docs/images/05.png: 1003488
+      assignment-2-moving-data/lab-5-bloom/docs/images/06.png: 1002839
+      assignment-2-moving-data/lab-5-bloom/docs/images/07.png: 987975
+      assignment-2-moving-data/lab-5-bloom/docs/images/08.png: 985082
+      assignment-2-moving-data/lab-5-bloom/docs/images/09.png: 1658163
+      assignment-2-moving-data/lab-5-bloom/docs/images/10.png: 1295231
+      assignment-2-moving-data/lab-5-bloom/docs/images/11.png: 1284272
+      assignment-2-moving-data/lab-5-bloom/docs/images/12.png: 1355840
+      assignment-2-moving-data/lab-5-bloom/docs/images/13.png: 1316472
+      assignment-2-moving-data/lab-5-bloom/docs/images/14.png: 1388444
+      assignment-2-moving-data/lab-5-bloom/docs/images/15.png: 1321101
+      assignment-2-moving-data/lab-5-bloom/docs/images/16.png: 1343819
+      assignment-2-moving-data/lab-5-bloom/docs/images/17.png: 1358203
+      assignment-2-moving-data/lab-5-bloom/docs/images/18.png: 1618426
+    changes:
+      files:
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/README.md
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 1668
+          delta: 1668
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/.DS_Store
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 6148
+          delta: 6148
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/01.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 872432
+          delta: 872432
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/02.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 861548
+          delta: 861548
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/03.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 643355
+          delta: 643355
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/04.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 641479
+          delta: 641479
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/05.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 683404
+          delta: 683404
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/06.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 726925
+          delta: 726925
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/07.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 698880
+          delta: 698880
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/08.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 722107
+          delta: 722107
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/09.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 1483756
+          delta: 1483756
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/10.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 894079
+          delta: 894079
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/11.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 865296
+          delta: 865296
+        - path: assignment-1-getting-started/lab-1-sign-in/docs/images/12.png
+          part_id: '5403073'
+          directory: docs
+          previous_size: 0
+          current_size: 941178
+          delta: 941178
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/README.md
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 3924
+          delta: 3924
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/.DS_Store
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 6148
+          delta: 6148
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/01.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 941178
+          delta: 941178
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/02.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 633175
+          delta: 633175
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/03.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 991405
+          delta: 991405
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/04.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 1009386
+          delta: 1009386
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/05.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 977402
+          delta: 977402
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/06.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 972840
+          delta: 972840
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/07.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 742114
+          delta: 742114
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/08.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 826287
+          delta: 826287
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/09.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 1213564
+          delta: 1213564
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/10.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 1202450
+          delta: 1202450
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/11.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 982699
+          delta: 982699
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/12.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 1038921
+          delta: 1038921
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/13.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 547407
+          delta: 547407
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/14.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 828909
+          delta: 828909
+        - path: assignment-1-getting-started/lab-2-deploy-neo4j/docs/images/15.png
+          part_id: '5403074'
+          directory: docs
+          previous_size: 0
+          current_size: 871903
+          delta: 871903
+        - path: assignment-1-getting-started/lab-3-connect-to-neo4j/docs/README.md
+          part_id: '5403075'
+          directory: docs
+          previous_size: 0
+          current_size: 858
+          delta: 858
+        - path: assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/.DS_Store
+          part_id: '5403075'
+          directory: docs
+          previous_size: 0
+          current_size: 6148
+          delta: 6148
+        - path: assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/01.png
+          part_id: '5403075'
+          directory: docs
+          previous_size: 0
+          current_size: 863315
+          delta: 863315
+        - path: assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/02.png
+          part_id: '5403075'
+          directory: docs
+          previous_size: 0
+          current_size: 889800
+          delta: 889800
+        - path: assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/03.png
+          part_id: '5403075'
+          directory: docs
+          previous_size: 0
+          current_size: 1050296
+          delta: 1050296
+        - path: assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/04.png
+          part_id: '5403075'
+          directory: docs
+          previous_size: 0
+          current_size: 1047133
+          delta: 1047133
+        - path: assignment-1-getting-started/lab-3-connect-to-neo4j/docs/images/05.png
+          part_id: '5403075'
+          directory: docs
+          previous_size: 0
+          current_size: 997800
+          delta: 997800
+        - path: assignment-2-moving-data/lab-4-query/docs/README.md
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 8840
+          delta: 8840
+        - path: assignment-2-moving-data/lab-4-query/docs/images/.DS_Store
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 6148
+          delta: 6148
+        - path: assignment-2-moving-data/lab-4-query/docs/images/01.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1050623
+          delta: 1050623
+        - path: assignment-2-moving-data/lab-4-query/docs/images/02.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1154509
+          delta: 1154509
+        - path: assignment-2-moving-data/lab-4-query/docs/images/03.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1096842
+          delta: 1096842
+        - path: assignment-2-moving-data/lab-4-query/docs/images/04.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1136058
+          delta: 1136058
+        - path: assignment-2-moving-data/lab-4-query/docs/images/05.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1023372
+          delta: 1023372
+        - path: assignment-2-moving-data/lab-4-query/docs/images/06.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1053773
+          delta: 1053773
+        - path: assignment-2-moving-data/lab-4-query/docs/images/07.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1091273
+          delta: 1091273
+        - path: assignment-2-moving-data/lab-4-query/docs/images/08.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1057587
+          delta: 1057587
+        - path: assignment-2-moving-data/lab-4-query/docs/images/09.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1063651
+          delta: 1063651
+        - path: assignment-2-moving-data/lab-4-query/docs/images/10.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1076307
+          delta: 1076307
+        - path: assignment-2-moving-data/lab-4-query/docs/images/11.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1221649
+          delta: 1221649
+        - path: assignment-2-moving-data/lab-4-query/docs/images/12.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1093243
+          delta: 1093243
+        - path: assignment-2-moving-data/lab-4-query/docs/images/13.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1090138
+          delta: 1090138
+        - path: assignment-2-moving-data/lab-4-query/docs/images/14.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1068669
+          delta: 1068669
+        - path: assignment-2-moving-data/lab-4-query/docs/images/15.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1143840
+          delta: 1143840
+        - path: assignment-2-moving-data/lab-4-query/docs/images/16.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1160238
+          delta: 1160238
+        - path: assignment-2-moving-data/lab-4-query/docs/images/17.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1152653
+          delta: 1152653
+        - path: assignment-2-moving-data/lab-4-query/docs/images/18.png
+          part_id: '5403076'
+          directory: docs
+          previous_size: 0
+          current_size: 1198130
+          delta: 1198130
+        - path: assignment-2-moving-data/lab-5-bloom/docs/README.md
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1863
+          delta: 1863
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/.DS_Store
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 6148
+          delta: 6148
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/01.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1198517
+          delta: 1198517
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/02.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 948712
+          delta: 948712
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/03.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1022227
+          delta: 1022227
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/04.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1020718
+          delta: 1020718
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/05.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1003488
+          delta: 1003488
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/06.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1002839
+          delta: 1002839
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/07.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 987975
+          delta: 987975
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/08.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 985082
+          delta: 985082
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/09.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1658163
+          delta: 1658163
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/10.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1295231
+          delta: 1295231
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/11.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1284272
+          delta: 1284272
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/12.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1355840
+          delta: 1355840
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/13.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1316472
+          delta: 1316472
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/14.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1388444
+          delta: 1388444
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/15.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1321101
+          delta: 1321101
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/16.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1343819
+          delta: 1343819
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/17.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1358203
+          delta: 1358203
+        - path: assignment-2-moving-data/lab-5-bloom/docs/images/18.png
+          part_id: '5403077'
+          directory: docs
+          previous_size: 0
+          current_size: 1618426
+          delta: 1618426
+    created: []
+    updated:
+      - assignment: '5403065'
+        parts:
+          - '5403073'
+          - '5403074'
+          - '5403075'
+      - assignment: '5403069'
+        parts:
+          - '5403076'
+          - '5403077'
+      - assignment: '5403071'
+        parts: []
+      - assignment: '5403146'
+        parts: []
   - timestamp: '2026-10-01T04:30:15.879Z'
     commit_sha: beca899
     published_by: Ben Lackey

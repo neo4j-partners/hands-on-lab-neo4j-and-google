@@ -2,7 +2,7 @@
 
 Document Intelligence is a new tool within Neo4j Aura.  It's currently in a private preview.  We've enabled your account for this lab with it.
 
-Document Intelligence transforms documents into knowledge graphs stored in Neo4j.  It's an evolution of an approach Neo4j has been pioneering with AI since 2022.  Early integrations focused on using [Langchain to build these architectures](https://cloud.google.com/blog/topics/partners/build-intelligent-apps-with-neo4j-and-google-generative-ai).  Many of our customers using AI to create knowledge graph continue to use this approach.  It's code heavy and deeply customizable.
+Document Intelligence transforms documents into knowledge graphs stored in Neo4j.  It's an evolution of an approach Neo4j pioneered with AI.  Early integrations focused on using [Langchain to build these architectures](https://cloud.google.com/blog/topics/partners/build-intelligent-apps-with-neo4j-and-google-generative-ai).  Many of our customers using AI to create knowledge graph continue to use this approach.  It's code heavy and deeply customizable.
 
 More recently Neo4j Labs, our experimental department, built a [LLM Graph Builder application](https://neo4j.com/labs/genai-ecosystem/llm-graph-builder/) that packaged this approach in a nice UI.
 
@@ -72,6 +72,4 @@ We can see the node for the home category includes streaming and wireless device
 
 ![](images/15.png)
 
-For the full graph query functionality, we would need to import this into a Neo4j instance.  Support for that feature went live on Aura Pro and BC 5/14.  So, we haven't had a chance to work it into the lab material yet.  Feel free to experiment though!
-
-We really hope you enjoyed this preview of Document Intelligence.  Please stay tuned for the full release and updates!
+For the full graph query functionality, we would need to import this into a Neo4j instance.  Feel free to experiment!
