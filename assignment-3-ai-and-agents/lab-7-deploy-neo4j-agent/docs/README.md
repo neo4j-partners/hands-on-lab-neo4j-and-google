@@ -22,56 +22,50 @@ Click "Continue and activate the API."
 
 ![](images/03.png)
 
-That will run for a minute...
+Click "Create."
 
 ![](images/04.png)
 
-Dismiss the "You have successfully onboarded to Gemini Enterprise" dialog.
+Dismiss "App created successfully."
 
 ![](images/05.png)
 
-Click "Create."
+Click on "Agents" in the menu on the left.
 
 ![](images/06.png)
 
-Dismiss "App created successfully."
+Click "+ Add Agent."
 
 ![](images/07.png)
 
-Click on "Agents" in the menu on the left.
+On the "Agents via Marketplace" tile click "Add."
 
 ![](images/08.png)
 
-Click "+ Add Agent."
+Select "Neo4j Agent by Neo4j" and click "Next."
 
 ![](images/09.png)
 
-On the "Agents via Marketplace" tile click "Add."
+Click "Next."
 
 ![](images/10.png)
 
-Select "Neo4j Agent by Neo4j" and click "Next."
+Click "Finish."
 
 ![](images/11.png)
 
-Click "Next."
+When complete, you should be redirected.  Dismiss the "Your agent was completed successfully" dialog.
+
+Note you may need to refresh your screen.
 
 ![](images/12.png)
 
-Click "Finish."
+We can click on the blue "Neo4j Agent" link to inspect it.
 
 ![](images/13.png)
 
-When complete, you should be redirected.  Dismiss the "Your agent was completed successfully" dialog.
-
-![](images/14.png)
-
-We can click on the blue "Neo4j Agent" link to inspect it.
-
-![](images/15.png)
-
 Great!  Our agent is now installed in our Gemini Enterprise instance.
 
-![](images/16.png)
+![](images/14.png)
 
 In the next lab, we'll log into Gemini Enterprise and use the agent!
