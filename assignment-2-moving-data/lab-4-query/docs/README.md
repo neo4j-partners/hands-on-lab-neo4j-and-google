@@ -23,51 +23,55 @@ We're going to run a Cypher statement to load the data.  Cypher is Neo4j's query
 
 ![](images/01.png)
 
-It should look like the following.  You can then press the triangle with a circle around it to run the job.
+It should look like the following.  You can then click "Run" or press enter.
 
 ![](images/02.png)
 
 That will load the nodes and relationships from the file.
 
+Click the "Database Overview" icon to see the results.
+
+![](images/03.png)
+
 You'll now see the nodes, relationships and properties we loaded.  We have two kinds of nodes, manager and company.  Manager nodes are asset managers.  Company nodes are the companies that those asset manages buy shares of.  Managers are related to companies by the owns relationship.  Manager, company and owns all have properties that we can inspect as well.
 
 Click on "Manager" under "Nodes" to automatically generate a new cypher query and run it.
 
-![](images/03.png)
+![](images/04.png)
 
 You'll now see a subset of the managers we have in the database.  The query returns 25 of them.  It's limited because returning to many nodes in this visualization mode can make it hard to navigate.
 
 Now, let's click on one of the managers.  Don't worry, it doesn't particularly matter which one.  
 
-![](images/04.png)
+![](images/05.png)
 
 Once we've clicked on it, we can see its details.  This particular manager has a property "managerName" with value "Second Half Financial Partners, LLC."
 
 Right click on that manager to open a context menu.
 
-![](images/05.png)
+![](images/06.png)
 
 Select "Expand selected."
 
-![](images/06.png)
+![](images/07.png)
 
-When it expands, we can see what companies this manager owns shares in.  In this case, "Smithfield Trust Co" seems to only have five holdings.  Note that this data set only has holdings over 10m.  Smaller holdings were filtered out in pre-processing.
+When it expands, we can see what companies this manager owns shares in.  In this case, "Second Half Financial Partners, LLC" seems to only have a number of holdings.  Note that this data set only has holdings over 10m.  Smaller holdings were filtered out in pre-processing.
 
 Try selecting a company that is connected to our manager.
 
-![](images/07.png)
+![](images/08.png)
 
-In this case, we see the company "JOHNSON & JOHNSON" has CUSIP 478160104.  A [CUSIP](https://en.wikipedia.org/wiki/CUSIP) is a unique identifier in the financial services industry.
+In this case, we see the company "SOUTHERN CO" has CUSIP 842587107.  A [CUSIP](https://en.wikipedia.org/wiki/CUSIP) is a unique identifier in the financial services industry.
 
 We can also click on the relationship, that is the line between the nodes to see detail on the transaction.
 
-![](images/08.png)
-
-In this case, it appears we have a report from 2023-03-31 that 3008 shares were purchased with a value of 310,715,000.  That number of shares is almost certainly missing some zeroes.  Sometimes these regulatory filings have significant quality challenges.  It seems we've just uncovered one!
-
-At this point, take some time to poke around the graph.  You can expand it by clicking the icon with two arrows pointing away from each other in the upper right.  
-
 ![](images/09.png)
+
+In this case, it appears we have a report from 2023-03-31 that shares: 3,715 shares were purchased with a value of value: $258,472,000.  That number of shares is almost certainly missing some zeroes or the value is incorrect.  Sometimes these regulatory filings have significant quality challenges.  It seems we've just uncovered one!
+
+At this point, take some time to poke around the graph.  
+
+![](images/10.png)
 
 Click the different views in the upper right to adjust the display.
 
@@ -79,23 +83,19 @@ We can click on some more nodes and expand them.
 
 As you play around, you may start to see some of the structure in the graph with recurrent connections and interesting communities of managers who have similar holdings.
 
-Let's shrink the graph view back by clicking the icon in the upper right.
-
-![](images/12.png)
-
 Now that we have some understanding of this portion of the dataset, we're going to delete it.  Then we'll load the full data set.  To delete all the nodes and relationships enter this command:
 
     MATCH (n) DETACH DELETE n;
 
+![](images/12.png)
+
+Then press the "Run" button.
+
 ![](images/13.png)
-
-Then press the run button.
-
-![](images/14.png)
 
 Now, all your data should be deleted.  Note that Workspace is still caching some property keys.
 
-![](images/15.png)
+![](images/14.png)
 
 In the next section, we'll load more data.
 
@@ -117,34 +117,36 @@ The manager is a little more difficult.  But, we're going to assume that the man
 
 That should give this:
 
-![](images/16.png)
+![](images/15.png)
 
 Now that we have all the constraints, let's load our nodes.  We're going to do that first and grab the relationships in a second pass.  While we could do it in a single Cypher statement, as we did above, it's more efficient to run them in series.
 
 Let's load the companies first.  We're going to have a lot of duplication, since our key is CUSIP and many different rows in our csv, each representing a filing, have the same cusip.  So, we need to enhance our LOAD CSV statement a little bit to deal with those duplicates.
 
-    LOAD CSV WITH HEADERS FROM 'https://storage.googleapis.com/neo4j-datasets/hands-on-lab/form13-2023.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'https://storage.googleapis.com/neo4j-datasets/hands-on-lab/form13-2023-05-11.csv' AS row
     MERGE (c:Company {cusip:row.cusip})
     ON CREATE SET c.companyName=row.companyName;
 
 That should give this:
 
-![](images/17.png)
+![](images/16.png)
 
 Now let's load the Managers:
 
-    LOAD CSV WITH HEADERS FROM 'https://storage.googleapis.com/neo4j-datasets/hands-on-lab/form13-2023.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'https://storage.googleapis.com/neo4j-datasets/hands-on-lab/form13-2023-05-11.csv' AS row
     MERGE (m:Manager {managerName:row.managerName});
 
 That should give this:
 
-![](images/18.png)
+![](images/17.png)
 
 Well, this is cool.  We've got all our nodes loaded in.  Now we need to tie them together with relationships.  In this case we only need one kind of relationship.  A manager "OWNS" a company.
 
+Because there are a lot of relationships, we're going to batch them.  That will avoid big memory allocations, making this query run more predicably and within the allocated heap.
+
 So, let's add the relationships.
 
-    LOAD CSV WITH HEADERS FROM 'https://storage.googleapis.com/neo4j-datasets/hands-on-lab/form13-2023.csv' AS row
+    LOAD CSV WITH HEADERS FROM 'https://storage.googleapis.com/neo4j-datasets/hands-on-lab/form13-2023-05-11.csv' AS row
     CALL (row) {
         MATCH (m:Manager {managerName: row.managerName})
         MATCH (c:Company {cusip: row.cusip})
@@ -154,8 +156,8 @@ So, let's add the relationships.
     }
     IN TRANSACTIONS OF 1000 ROWS;
 
-This will run for about 2 minutes.  When complete, you should see this:
+This will run for about 90 seconds.  When complete, you should see this:
 
-![](images/19.png)
+![](images/18.png)
 
 You've done it!  We've loaded our data set up.  We'll explore it in the next lab.  But, feel free to poke around a bit as well.
