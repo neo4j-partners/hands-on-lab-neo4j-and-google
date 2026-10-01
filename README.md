@@ -47,7 +47,7 @@ You'll need a laptop with a web browser.  Your browser will need to be able to a
 * Lab 4 - Query (10 min)
   * Simple Load Statement
   * More Performant Load
-* Lab 5 - Explore (10 min)
+* Lab 5 - Bloom (10 min)
   * Graph Business Intelligence
 * Break (5 min)
 
