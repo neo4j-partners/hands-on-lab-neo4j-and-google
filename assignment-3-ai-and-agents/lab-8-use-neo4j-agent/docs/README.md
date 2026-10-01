@@ -82,9 +82,9 @@ Hit enter.
 
 Eureka!  We found a node named Bob.
 
-This being a graph database, with rather a lot of data from the SEC in it, we can probably do some more interesting things.  Here's one idea:
+This database already has some data in it.  You can type:
 
-    What companies are owned by three or more managers?
+    What data is in the database?
 
 ![](images/17.png)
 
@@ -92,14 +92,6 @@ Hit enter.
 
 ![](images/18.png)
 
-We see a bunch of companies.
+We see some sample data.
 
-![](images/19.png)
-
-Some other ideas for queries include:
-
-* What manager owns the most companies?
-* What manager owns the least companies?
-* Which managers own Exxon?
-
-Feel free to play around, though please don't nuke the database as everyone else is using it to.
+Feel free to play around, though please don't nuke the database as everyone else is using it too.
