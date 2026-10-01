@@ -1,8 +1,8 @@
-# Lab 5 - Explore
+# Lab 5 - Bloom
 
-In this lab, we'll use Explore, Neo4j's business intelligence (BI) tool, to explore our data.
+In this lab, we'll use Bloom, Neo4j's business intelligence (BI) tool, to explore our data.
 
-Click on the 'Explore' option in the left menu under Tools.
+Click on the 'Bloom' option in the left menu under Tools.
 
 ![](images/01.png)
 
@@ -32,7 +32,7 @@ Now select "Company"
 
 ![](images/07.png)
 
-Now hit press return.
+Now press return.
 
 ![](images/08.png)
 
@@ -54,28 +54,33 @@ Select "Degree Centrality."
 
 ![](images/12.png)
 
-Click "Apply."
+Click "Run algorithm."
 
 ![](images/13.png)
 
-This spins up an additional ephemeral instance running Neo4j Graph Analytics.  That takes a few minutes.
+Click "Apply to current scene."
 
 ![](images/14.png)
+
+
+This spins up an additional ephemeral instance running Neo4j Graph Analytics.  That takes a few minutes.
+
+![](images/15.png)
 
 Once it is running, we see this view.  We can choose how we want to visualize the results in the graph.  
 
 Choose "Size scaling."
 
-![](images/15.png)
+![](images/16.png)
 
-That gives us this.  The more central nodes in our graph are now shown as larger.
+The more central nodes in our graph are now shown as larger.
 
 We can close the data science panel to get a better view.  Do that by clicking the icon above "Analytics Session Running."
 
-![](images/16.png)
+![](images/17.png)
 
 That gives us a better view of the differently sized nodes.
 
-![](images/17.png)
+![](images/18.png)
 
 These are just a few examples of what you can do with Bloom.  Feel free to explore!
