@@ -73,10 +73,6 @@ At this point, take some time to poke around the graph.
 
 ![](images/10.png)
 
-Click the different views in the upper right to adjust the display.
-
-![](images/10.png)
-
 We can click on some more nodes and expand them.
 
 ![](images/11.png)
@@ -156,7 +152,7 @@ So, let's add the relationships.
     }
     IN TRANSACTIONS OF 1000 ROWS;
 
-This will run for about 90 seconds.  When complete, you should see this:
+When complete, you should see this:
 
 ![](images/18.png)
 
